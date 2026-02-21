@@ -18,13 +18,6 @@ Many stroke patients with flaccid or weak lower-limb control struggle with safe 
 - Evaluate usability and potential rehabilitation impact through prototype and trial phases.
 - Keep safety, comfort, and clinical practicality as core constraints.
 
-## Team Focus Right Now
-The current work is centered on the computer-engineering side of the project, especially:
-- Sensing strategy for detecting meaningful gait events.
-- Walking-assist decision logic that can be validated and iterated.
-
-Implementation details are intentionally not fixed in this context document and may evolve as testing progresses.
-
 ## Expected Impact
 - Better assisted gait practice for patients with limited limb control.
 - Potential reduction in recovery friction during early rehab.
