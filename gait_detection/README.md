@@ -95,3 +95,10 @@ The current ESP32 code reads 3 sensors. To integrate:
 3. **Send data**: Transmit to Python via Serial/WiFi/Bluetooth
 4. **Format**: Send as `{"t": timestamp, "A_heel": value, ...}`
 
+
+## Papers of interests 
+(Gait phase analysis based on a Hidden Markov Model)[https://www.sciencedirect.com/science/article/pii/S0957415811000481]
+(Unsupervised Square Finite State Machine for Gait Events Estimation from Instrumented Insoles)[https://link.springer.com/chapter/10.1007/978-3-031-47508-5_22]
+(A Survey of Wearable Lower Extremity
+Neurorehabilitation Exoskeleton: Sensing, Gait
+Dynamics, and Human–Robot Collaboration)[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10465662]
