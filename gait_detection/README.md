@@ -12,8 +12,6 @@ capstone/
 │
 ├── simulation/              # Interactive testing & simulation
 │   ├── gait_simulator.py        # GUI simulator (algorithm-agnostic)
-│   ├── test_algorithms.py       # Easy algorithm comparison
-│   └── gait_example.py          # Basic usage example
 │
 ├── esp32/                   # ESP32 hardware code
 │   ├── fsr_sensor_reader.ino    # Read FSR sensors
@@ -31,13 +29,6 @@ cd simulation
 python gait_simulator.py
 ```
 
-Or test different algorithms from a menu:
-
-```bash
-cd simulation
-python test_algorithms.py
-```
-
 ### How to Use the Simulator
 
 1. **Select algorithm** from the dropdown menu
@@ -47,13 +38,6 @@ python test_algorithms.py
    - Events (IC = Initial Contact, TO = Toe Off)
 4. **Switch algorithms** on-the-fly to compare behavior
 
-### Test Scenario
-
-Try this to understand the algorithms:
-- Drag "Affected Heel" slider to 2500 → see IC event
-- Drag "Affected Mid" slider to 2500 → foot stays in contact
-- Drag both back to 500 → see TO event
-- Switch algorithms and repeat to see different behaviors
 
 ## Available Algorithms
 
@@ -89,45 +73,6 @@ The detectors expect **6 FSR sensors**:
 - U_mid - Middle/arch
 - U_toe - Front/ball of foot
 
-## Creating Your Own Algorithm
-
-All algorithms follow a simple interface:
-
-```python
-class MyDetector:
-    def update(self, sample: dict) -> dict:
-        """
-        Args:
-            sample: {"t": float, "A_heel": int, "A_mid": int, ...}
-        Returns:
-            {"t": float, "A_contact": int, "U_contact": int,
-             "A_IC": int, "A_TO": int, "U_IC": int, "U_TO": int}
-        """
-        # Your detection logic here
-        pass
-
-    def reset(self) -> None:  # Optional
-        # Reset internal state
-        pass
-```
-
-Save in `algorithms/my_detector.py` and add to `__init__.py`:
-
-```python
-from .my_detector import MyDetector
-__all__ = ['HysteresisDetector', 'ThresholdDetector', 'WeightedDetector', 'MyDetector']
-```
-
-Then use in simulator:
-
-```python
-from simulation.gait_simulator import main
-from algorithms import MyDetector
-
-detector = MyDetector()
-main(detector, "My Algorithm Name")
-```
-
 ## Tuning Constants
 
 All algorithms use constants defined at the top of each file:
@@ -150,11 +95,3 @@ The current ESP32 code reads 3 sensors. To integrate:
 3. **Send data**: Transmit to Python via Serial/WiFi/Bluetooth
 4. **Format**: Send as `{"t": timestamp, "A_heel": value, ...}`
 
-## Next Steps
-
-1. ✅ Test different algorithms in the simulator
-2. ✅ Understand how each algorithm behaves
-3. Tune thresholds based on your actual FSR sensors
-4. Connect ESP32 and integrate real sensor data
-5. Collect real gait data and validate algorithms
-6. Create custom algorithms for your specific use case
