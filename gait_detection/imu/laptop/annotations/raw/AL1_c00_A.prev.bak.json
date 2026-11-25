@@ -1,0 +1,163 @@
+{"rec": "AL1", "start": 0, "end": 56.25, "annotator": "A",
+ "events": [
+  {"t": 12.28, "type": "PO", "conf": "unsure"},
+  {"t": 12.51, "type": "TO"},
+  {"t": 12.79, "type": "MS"},
+  {"t": 13.06, "type": "HS"},
+
+  {"t": 13.61, "type": "PO", "conf": "unsure"},
+  {"t": 13.87, "type": "TO"},
+  {"t": 14.28, "type": "MS"},
+  {"t": 14.45, "type": "HS", "conf": "unsure"},
+
+  {"t": 14.88, "type": "PO", "conf": "unsure"},
+  {"t": 15.21, "type": "TO"},
+  {"t": 15.61, "type": "MS"},
+  {"t": 15.77, "type": "HS"},
+
+  {"t": 16.24, "type": "PO", "conf": "unsure"},
+  {"t": 16.53, "type": "TO"},
+  {"t": 16.96, "type": "MS", "conf": "unsure"},
+  {"t": 17.14, "type": "HS", "conf": "unsure"},
+
+  {"t": 17.60, "type": "PO"},
+  {"t": 17.92, "type": "TO"},
+  {"t": 18.35, "type": "MS"},
+  {"t": 18.53, "type": "HS"},
+
+  {"t": 19.04, "type": "PO", "conf": "unsure"},
+  {"t": 19.34, "type": "TO"},
+  {"t": 19.79, "type": "MS"},
+  {"t": 19.99, "type": "HS"},
+
+  {"t": 20.43, "type": "PO", "conf": "unsure"},
+  {"t": 20.80, "type": "TO"},
+  {"t": 21.26, "type": "MS"},
+  {"t": 21.43, "type": "HS"},
+
+  {"t": 22.15, "type": "PO", "conf": "unsure"},
+  {"t": 22.50, "type": "TO", "conf": "unsure"},
+  {"t": 22.97, "type": "MS", "conf": "unsure"},
+  {"t": 23.05, "type": "HS", "conf": "unsure"},
+
+  {"t": 23.55, "type": "PO"},
+  {"t": 23.89, "type": "TO"},
+  {"t": 24.30, "type": "MS"},
+  {"t": 24.51, "type": "HS", "conf": "unsure"},
+
+  {"t": 24.90, "type": "PO"},
+  {"t": 25.21, "type": "TO"},
+  {"t": 25.61, "type": "MS"},
+  {"t": 25.78, "type": "HS"},
+
+  {"t": 26.21, "type": "PO", "conf": "unsure"},
+  {"t": 26.48, "type": "TO"},
+  {"t": 26.88, "type": "MS"},
+  {"t": 27.02, "type": "HS"},
+
+  {"t": 27.40, "type": "PO", "conf": "unsure"},
+  {"t": 27.72, "type": "TO"},
+  {"t": 28.08, "type": "MS", "conf": "unsure"},
+
+  {"t": 28.66, "type": "PO"},
+  {"t": 28.95, "type": "TO", "conf": "unsure"},
+  {"t": 29.35, "type": "MS"},
+  {"t": 29.50, "type": "HS"},
+
+  {"t": 29.97, "type": "PO"},
+  {"t": 30.25, "type": "TO"},
+  {"t": 30.70, "type": "MS"},
+  {"t": 30.82, "type": "HS"},
+
+  {"t": 31.25, "type": "PO", "conf": "unsure"},
+  {"t": 31.57, "type": "TO"},
+  {"t": 32.00, "type": "MS", "conf": "unsure"},
+  {"t": 32.14, "type": "HS"},
+
+  {"t": 32.70, "type": "PO", "conf": "unsure"},
+  {"t": 32.97, "type": "TO"},
+  {"t": 33.40, "type": "MS", "conf": "unsure"},
+  {"t": 33.63, "type": "HS"},
+
+  {"t": 34.26, "type": "PO", "conf": "unsure"},
+  {"t": 34.48, "type": "TO"},
+  {"t": 34.88, "type": "MS"},
+  {"t": 35.09, "type": "HS"},
+
+  {"t": 35.55, "type": "PO"},
+  {"t": 35.87, "type": "TO"},
+  {"t": 36.29, "type": "MS"},
+  {"t": 36.43, "type": "HS"},
+
+  {"t": 36.93, "type": "PO", "conf": "unsure"},
+  {"t": 37.57, "type": "MS"},
+  {"t": 37.72, "type": "HS"},
+
+  {"t": 38.41, "type": "TO"},
+  {"t": 38.80, "type": "MS"},
+  {"t": 39.06, "type": "HS", "conf": "unsure"},
+
+  {"t": 39.46, "type": "PO"},
+  {"t": 39.71, "type": "TO"},
+  {"t": 40.12, "type": "MS"},
+  {"t": 40.26, "type": "HS"},
+
+  {"t": 40.70, "type": "PO"},
+  {"t": 40.99, "type": "TO"},
+  {"t": 41.40, "type": "MS"},
+  {"t": 41.60, "type": "HS"},
+
+  {"t": 42.18, "type": "PO", "conf": "unsure"},
+  {"t": 42.40, "type": "TO"},
+  {"t": 42.78, "type": "MS"},
+  {"t": 42.96, "type": "HS", "conf": "unsure"},
+
+  {"t": 43.36, "type": "PO"},
+  {"t": 43.70, "type": "TO"},
+  {"t": 44.12, "type": "MS"},
+  {"t": 44.36, "type": "HS"},
+
+  {"t": 44.85, "type": "PO", "conf": "unsure"},
+  {"t": 45.15, "type": "TO", "conf": "unsure"},
+  {"t": 45.53, "type": "MS"},
+  {"t": 45.74, "type": "HS"},
+
+  {"t": 47.80, "type": "PO"},
+  {"t": 48.14, "type": "TO"},
+  {"t": 48.57, "type": "MS"},
+  {"t": 48.73, "type": "HS"},
+
+  {"t": 49.14, "type": "PO"},
+  {"t": 49.47, "type": "TO"},
+  {"t": 49.87, "type": "MS", "conf": "unsure"},
+  {"t": 50.04, "type": "HS", "conf": "unsure"},
+
+  {"t": 50.49, "type": "PO"},
+  {"t": 50.76, "type": "TO"},
+  {"t": 51.15, "type": "MS"},
+  {"t": 51.28, "type": "HS"},
+
+  {"t": 51.70, "type": "PO"},
+  {"t": 51.96, "type": "TO"},
+  {"t": 52.33, "type": "MS"},
+  {"t": 52.50, "type": "HS"},
+
+  {"t": 52.91, "type": "PO"},
+  {"t": 53.17, "type": "TO"},
+  {"t": 53.55, "type": "MS", "conf": "unsure"},
+  {"t": 53.72, "type": "HS"},
+
+  {"t": 54.13, "type": "PO", "conf": "unsure"},
+  {"t": 54.40, "type": "TO"},
+  {"t": 54.79, "type": "MS"},
+  {"t": 54.93, "type": "HS"},
+
+  {"t": 55.40, "type": "PO", "conf": "unsure"},
+  {"t": 55.62, "type": "TO"},
+  {"t": 56.00, "type": "MS"},
+  {"t": 56.18, "type": "HS"}
+ ],
+ "still": [[0.0, 12.2]],
+ "unclear": [[28.19, 28.30], [37.04, 37.20], [38.02, 38.35], [46.65, 47.55]],
+ "irregular": [[21.9, 23.6], [45.9, 47.8]],
+ "notes": "pass 2"}
