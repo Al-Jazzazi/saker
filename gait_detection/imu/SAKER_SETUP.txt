@@ -1,0 +1,75 @@
+SAKER ESP-NOW bench prototype - sender, receiver, laptop tools
+==============================================================
+Target: ESP32 Dev Module, Arduino-ESP32 Core 3.3.12, original ESP32-D0WD-V3.
+Default partition scheme is fine (sender uses ~77% of flash).
+
+Folder:
+  SAKER_Sender/     sender sketch. Settings to tune are in Config.h.
+  SAKER_Receiver/   receiver sketch (servo).
+  laptop/           saker_logger.py (record data), saker_ml.py (SVM).
+  tests/            laptop test for the gait state machine.
+Protocol.h exists in both sketch folders and must stay identical.
+Protocol version 2: re-upload BOTH boards after updating.
+
+Sender: 2 MPU6050 modules, thigh 0x69 (AD0 -> 3V3), shank 0x68
+(AD0 -> GND). Both VCC -> 3V3, GND -> GND, SDA -> GPIO21,
+SCL -> GPIO22. Reference spacing 20cm, measured when leg is straight.
+Sensor orientation does not matter: WALK finds the sagittal axes.
+
+Receiver: Servo signal GPIO18, separate suitable servo supply, common ground.
+Servo pulse 1-2ms at 50Hz and software target limited 45-135 degrees.
+
+Network:
+  Sender joins iPhone hotspot SSID iPhone, password 12345678.
+  Mac joins same hotspot; open URL printed in sender's serial monitor,
+  or http://saker.local
+  Sender and receiver use ESP-NOW, not Bluetooth.
+  Receiver scans Wi-Fi channels 1 through 11 to discover sender automatically.
+  iPhone hotspot Maximize Compatibility should be ON (2.4GHz).
+  No MAC address editing is required.
+
+Order:
+  1. Upload RECEIVER code to receiver ESP32 and power it.
+  2. Upload SENDER code to sender ESP32, open serial monitor at 115200.
+  3. Confirm dashboard URL and 'Receiver paired' in sender log.
+  4. Open dashboard, press TEST SERVO while detached from person.
+  5. CAL with both sensors still for 3 seconds.
+  6. WALK with sensors on healthy leg; take >=4 normal steps over 12s.
+  7. TRACK = gait phases + data, motor off. START = same + motor. STOP anytime.
+
+Gait phases (healthy leg, from shank sagittal angular velocity):
+  STANCE -> PRE_SWING (push-off) -> SWING (toe-off) -> TERMINAL_SWING
+  (mid-swing peak) -> STANCE (heel strike). Thresholds come from WALK;
+  timing rules are in GaitFsm.h (GaitTiming). Trigger event is
+  ASSIST_TRIGGER_EVENT in Config.h (default: healthy heel strike).
+  Test the state machine on the laptop after changing rules:
+    clang++ -std=c++17 -o /tmp/t tests/test_gait_fsm.cpp && /tmp/t
+
+Motor movement: 30 degrees out over 1.5s along a smooth (minimum-jerk)
+curve, straight back over 1.5s. An assist that arrives while the servo is
+still moving is skipped. STOP or link loss (1250ms without packets) eases
+back to 90 degrees over 0.8s.
+
+Recording data (laptop on the same hotspot):
+  cd laptop
+  python3 saker_logger.py --label walk_normal
+  Ctrl+C to stop. CSV files go to laptop/data/, one row per sample at 100Hz.
+  If saker.local is not found, add --host <IP from serial monitor>.
+
+SVM (needs: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt):
+  .venv/bin/python saker_ml.py train data/*.csv
+  .venv/bin/python saker_ml.py predict models/gait_svm.joblib data/<file>.csv
+  Labels default to the state machine's 'phase' column, so the SVM first
+  learns to copy the rules. Use --label <column> with better labels later.
+
+Limitations:
+ - Experimental IMU-only gait phases, not measured foot contact or weight
+   transfer. Use unloaded servo only.
+ - The walking calibration learns thresholds from motion distributions but
+   does not identify real foot contact against a reference sensor.
+ - No knee-angle fusion is implemented.
+ - Wi-Fi and ESP-NOW share channel; iPhone hotspot channel can change.
+ - ESP-NOW link and data stream are unencrypted and unauthenticated,
+   and dashboard has no login. Do not use on a public or sensitive network.
+ - Compiled and the state machine tested on synthetic data; not yet
+   tested on physical hardware.

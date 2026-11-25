@@ -1,0 +1,6044 @@
+{
+ "rec": "YL2",
+ "events": [
+  {
+   "t": 12.2,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 12.59,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 13.1,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 13.33,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 13.78,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 14.09,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 14.43,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 14.62,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 15.06,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 15.31,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 15.63,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 15.8,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 16.23,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 16.5,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 16.85,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 17.02,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 17.43,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 17.68,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 18.0,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 18.19,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 18.6,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 18.9,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 19.2,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 19.35,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 19.76,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 20.01,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 20.36,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 20.54,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 20.9,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 21.19,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 21.51,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 21.65,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 22.06,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 22.34,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 22.69,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 22.81,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 23.23,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 23.4,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 23.84,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 24.08,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 24.51,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 24.81,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 25.15,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 25.29,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 25.7,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 25.96,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 26.27,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 26.44,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 26.82,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 27.1,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 27.43,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 27.59,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 28.0,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 28.27,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 28.58,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 28.76,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 29.15,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 29.41,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 29.74,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 29.92,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 30.3,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 30.61,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 30.95,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 31.09,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 31.49,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 31.77,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 32.11,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 32.27,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 32.72,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 33.0,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 33.35,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 33.44,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 33.91,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 34.09,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 34.48,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 34.63,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 35.01,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 35.33,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 35.66,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 35.82,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 36.21,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 36.51,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 36.84,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 37.0,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 37.38,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 37.66,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 38.0,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 38.17,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 38.58,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 38.86,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 39.18,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 39.33,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 39.65,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 40.01,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 40.35,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 40.51,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 40.82,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 41.2,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 41.54,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 41.69,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 42.14,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 42.39,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 42.7,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 42.87,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 43.3,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 43.61,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 43.96,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 44.08,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 44.56,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 44.79,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 45.18,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 45.4,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 45.72,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 46.06,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 46.39,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 46.56,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 47.01,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 47.2,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 47.54,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 47.7,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 48.11,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 48.39,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 48.73,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 48.87,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 49.24,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 49.56,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 49.84,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 50.01,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 50.44,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 50.7,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 51.05,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 51.2,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 51.57,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 51.89,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 52.22,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 52.36,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 52.73,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 53.01,
+   "type": "TO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 53.37,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 53.52,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 53.95,
+   "type": "PO",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 54.56,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 54.67,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 55.15,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 55.34,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 55.76,
+   "type": "MS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 55.97,
+   "type": "HS",
+   "chunk": "YL2_c00"
+  },
+  {
+   "t": 56.36,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 56.69,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 57.04,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 57.19,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 57.59,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 57.89,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 58.24,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 58.38,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 58.75,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 59.05,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 59.37,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 59.56,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 59.86,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 60.2,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 60.54,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 60.68,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 61.07,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 61.36,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 61.72,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 61.87,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 62.17,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 62.53,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 62.88,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 63.03,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 63.45,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 63.7,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 64.01,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 64.2,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 66.07,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 66.3,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 66.65,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 66.81,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 67.22,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 67.51,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 67.86,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 68.02,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 68.4,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 68.69,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 69.04,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 69.19,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 69.58,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 69.85,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 70.2,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 70.35,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 70.78,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 71.03,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 71.35,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 71.52,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 71.89,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 72.2,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 72.55,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 72.69,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 73.07,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 73.37,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 73.7,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 73.87,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 74.26,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 74.58,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 74.95,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 75.1,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 75.86,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 75.96,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 76.4,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 76.58,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 76.96,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 77.3,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 77.62,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 77.79,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 78.47,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 78.8,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 78.96,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 79.3,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 79.64,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 79.97,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 80.12,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 80.5,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 80.79,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 81.13,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 81.27,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 81.57,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 81.94,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 82.25,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 82.41,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 82.8,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 83.08,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 83.42,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 83.59,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 83.97,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 84.26,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 84.61,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 84.78,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 85.18,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 85.48,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 85.89,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 87.18,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 87.38,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 87.8,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 88.12,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 88.46,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 88.63,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 88.94,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 89.31,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 89.65,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 89.8,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 90.15,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 90.49,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 90.81,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 90.96,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 91.32,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 91.67,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 91.96,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 92.12,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 92.5,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 92.79,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 93.12,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 93.28,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 93.66,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 93.97,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 94.3,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 94.45,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 94.84,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 95.2,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 95.48,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 95.64,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 96.0,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 96.36,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 96.7,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 96.81,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 97.45,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 97.65,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 98.12,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 98.28,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 98.7,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 98.98,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 99.33,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 99.51,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 99.9,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 100.22,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 100.55,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 100.7,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 101.08,
+   "type": "PO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 101.4,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 101.73,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 101.88,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 102.3,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 102.61,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 102.88,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 103.03,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 103.4,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 103.69,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 104.03,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 104.2,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 104.55,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 104.91,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 105.25,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 105.4,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 105.8,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 106.06,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 106.4,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 106.56,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 106.94,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 107.27,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 107.58,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 107.71,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 108.23,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 108.4,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 108.88,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 109.05,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 109.45,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 109.76,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 110.1,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 110.27,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 110.6,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 110.96,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 111.29,
+   "type": "MS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 111.45,
+   "type": "HS",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 111.75,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 112.15,
+   "type": "TO",
+   "chunk": "YL2_c01"
+  },
+  {
+   "t": 112.49,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 112.65,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 113.01,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 113.29,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 113.63,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 113.79,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 114.08,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 114.45,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 114.8,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 114.96,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 115.33,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 115.63,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 115.97,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 116.12,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 116.51,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 117.16,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 117.34,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 117.73,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 118.01,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 118.33,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 118.5,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 118.86,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 119.06,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 119.52,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 119.74,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 120.15,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 120.44,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 120.79,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 120.94,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 121.34,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 121.64,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 121.98,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 122.13,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 122.53,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 122.79,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 123.12,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 123.29,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 123.7,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 123.99,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 124.3,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 124.49,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 124.86,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 125.17,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 125.51,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 125.66,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 126.05,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 126.34,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 126.69,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 126.85,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 127.27,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 127.52,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 127.86,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 128.05,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 128.39,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 128.72,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 129.01,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 129.17,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 129.59,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 129.75,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 130.21,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 130.44,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 130.86,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 131.16,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 131.47,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 131.66,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 132.03,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 132.36,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 132.69,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 132.85,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 133.24,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 133.54,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 133.88,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 134.03,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 141.4,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 141.62,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 141.88,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 142.11,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 142.68,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 143.13,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 143.47,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 143.73,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 144.2,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 144.67,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 144.9,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 145.32,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 145.98,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 146.3,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 146.63,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 146.91,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 147.43,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 147.95,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 148.24,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 148.54,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 149.07,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 149.54,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 149.87,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 150.11,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 150.65,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 150.9,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 151.36,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 151.56,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 152.1,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 152.47,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 152.78,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 153.04,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 153.58,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 153.91,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 154.23,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 154.46,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 154.93,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 155.32,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 155.64,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 155.86,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 156.4,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 156.76,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 157.08,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 157.33,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 157.93,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 158.3,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 158.6,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 158.85,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 159.33,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 159.76,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 160.07,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 160.37,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 160.87,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 161.3,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 161.91,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 162.43,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 162.82,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 163.15,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 163.41,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 163.93,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 164.34,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 164.74,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 164.85,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 165.55,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 166.05,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 166.28,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 166.79,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 167.13,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 167.45,
+   "type": "MS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 167.7,
+   "type": "HS",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 168.21,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 168.57,
+   "type": "TO",
+   "chunk": "YL2_c02"
+  },
+  {
+   "t": 168.87,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 169.12,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 169.77,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 170.06,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 170.36,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 170.65,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 171.28,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 171.53,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 171.84,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 172.11,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 172.78,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 173.02,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 173.34,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 173.62,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 174.13,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 174.5,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 174.82,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 175.12,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 175.64,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 176.01,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 176.32,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 176.58,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 177.22,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 177.52,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 177.84,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 178.09,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 178.62,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 179.02,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 179.4,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 179.5,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 179.79,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 180.17,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 180.64,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 180.88,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 181.46,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 181.74,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 182.07,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 182.33,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 182.93,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 183.17,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 183.5,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 183.75,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 184.22,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 184.59,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 184.92,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 185.11,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 185.62,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 185.99,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 186.31,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 186.54,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 187.16,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 187.42,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 187.72,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 188.0,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 188.49,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 188.89,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 189.2,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 189.46,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 189.92,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 190.23,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 190.51,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 190.8,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 191.3,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 191.69,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 191.98,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 192.22,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 193.05,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 193.29,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 193.57,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 194.42,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 194.68,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 195.02,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 195.25,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 195.77,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 196.07,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 196.37,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 196.64,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 197.09,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 197.45,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 197.77,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 198.02,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 198.46,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 198.85,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 199.15,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 199.41,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 199.9,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 200.22,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 200.55,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 200.76,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 201.37,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 201.65,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 201.93,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 202.21,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 202.7,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 203.03,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 203.39,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 203.64,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 204.31,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 204.6,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 204.89,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 205.16,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 205.61,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 206.05,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 206.45,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 206.57,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 207.17,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 207.36,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 207.87,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 208.11,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 208.66,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 208.98,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 209.28,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 209.56,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 210.07,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 210.43,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 210.77,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 211.02,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 211.49,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 211.81,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 212.13,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 212.39,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 212.87,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 213.23,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 213.52,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 213.79,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 214.26,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 214.58,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 214.9,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 215.16,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 215.63,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 215.99,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 216.33,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 216.54,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 217.0,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 217.4,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 217.75,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 217.96,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 218.43,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 218.79,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 219.14,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 219.38,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 219.94,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 220.35,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 220.65,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 220.97,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 221.46,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 221.93,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 222.29,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 222.55,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 223.04,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 223.42,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 223.76,
+   "type": "MS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 223.99,
+   "type": "HS",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 224.53,
+   "type": "PO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 224.85,
+   "type": "TO",
+   "chunk": "YL2_c03"
+  },
+  {
+   "t": 225.16,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 225.45,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 225.92,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 226.32,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 226.66,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 226.87,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 227.33,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 227.76,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 228.1,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 228.32,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 228.8,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 229.16,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 229.46,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 229.75,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 230.35,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 230.62,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 230.95,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 231.11,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 231.45,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 231.81,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 232.14,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 232.33,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 232.75,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 233.04,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 233.39,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 233.56,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 233.89,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 234.14,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 234.58,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 234.76,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 235.18,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 235.51,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 235.85,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 236.02,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 236.41,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 236.68,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 237.02,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 237.16,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 237.52,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 237.81,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 238.15,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 238.3,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 238.62,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 238.96,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 239.3,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 239.46,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 239.79,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 240.12,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 240.47,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 240.62,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 241.03,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 241.3,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 241.64,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 241.79,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 242.19,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 242.49,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 242.82,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 243.01,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 244.27,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 244.41,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 244.58,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 244.83,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 245.25,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 245.55,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 245.75,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 246.19,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 246.51,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 246.85,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 247.01,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 247.33,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 247.71,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 248.05,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 248.18,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 248.58,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 248.86,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 249.21,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 249.37,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 249.75,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 250.04,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 250.39,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 250.55,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 250.95,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 251.24,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 251.58,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 251.75,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 252.13,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 252.43,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 252.77,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 252.95,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 253.34,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 253.66,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 254.01,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 254.17,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 255.93,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 256.34,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 256.68,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 256.87,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 257.3,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 257.56,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 257.9,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 258.07,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 258.5,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 258.77,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 259.11,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 259.28,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 259.68,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 260.0,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 260.33,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 260.49,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 260.88,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 261.19,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 261.53,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 261.68,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 262.11,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 262.39,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 262.74,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 262.89,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 263.33,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 263.61,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 263.93,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 264.1,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 264.56,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 264.86,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 265.12,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 265.35,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 266.47,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 266.66,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 267.12,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 267.42,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 267.78,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 267.93,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 268.38,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 268.65,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 269.0,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 269.17,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 269.56,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 269.9,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 270.23,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 270.38,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 270.8,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 271.07,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 271.4,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 271.56,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 272.01,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 272.29,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 272.61,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 272.76,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 273.21,
+   "type": "PO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 273.46,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 273.8,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 273.96,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 274.37,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 274.66,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 275.0,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 275.16,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 276.68,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 277.12,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 277.44,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 277.58,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 277.9,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 278.3,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 278.63,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 278.79,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 279.2,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 279.5,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 279.82,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 279.97,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 280.36,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 280.66,
+   "type": "TO",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 281.0,
+   "type": "MS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 281.16,
+   "type": "HS",
+   "chunk": "YL2_c04"
+  },
+  {
+   "t": 281.45,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 281.84,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 282.19,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 282.36,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 282.67,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 283.55,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 283.89,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 284.28,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 284.64,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 285.88,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 286.01,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 286.7,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 287.05,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 287.22,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 287.53,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 287.98,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 288.33,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 288.48,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 288.81,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 289.2,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 289.54,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 289.7,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 290.02,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 290.42,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 290.76,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 290.92,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 291.3,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 291.64,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 292.0,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 292.15,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 292.55,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 292.88,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 293.2,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 295.46,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 295.79,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 296.0,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 296.29,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 296.7,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 297.04,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 297.19,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 297.49,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 297.88,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 298.22,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 298.4,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 298.8,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 299.1,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 299.44,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 299.61,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 300.13,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 300.37,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 300.65,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 300.81,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 301.2,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 301.52,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 301.88,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 302.05,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 302.34,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 302.74,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 303.06,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 303.21,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 303.6,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 303.9,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 304.2,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 305.32,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 305.49,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 305.8,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 306.17,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 306.49,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 306.64,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 306.97,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 307.32,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 307.62,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 307.79,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 308.11,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 308.42,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 308.76,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 308.92,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 309.21,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 309.54,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 309.86,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 310.01,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 310.3,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 311.0,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 311.13,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 311.43,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 311.82,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 312.14,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 312.31,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 312.62,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 313.33,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 314.6,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 314.78,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 315.16,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 315.5,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 315.84,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 316.01,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 316.33,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 316.7,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 317.04,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 317.2,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 317.51,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 317.89,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 318.23,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 318.38,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 318.71,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 319.08,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 319.42,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 319.58,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 320.0,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 320.36,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 320.6,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 320.76,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 321.17,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 321.46,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 321.72,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 322.99,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 323.16,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 323.7,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 324.04,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 324.4,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 324.59,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 324.98,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 325.31,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 325.64,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 325.81,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 326.17,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 326.52,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 326.82,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 327.02,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 327.43,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 327.75,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 328.02,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 328.21,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 328.6,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 328.95,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 329.24,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 329.42,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 329.8,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 330.16,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 330.44,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 330.64,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 331.14,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 331.39,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 331.67,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 331.9,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 332.3,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 332.64,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 332.97,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 333.18,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 333.48,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 333.9,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 334.17,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 334.39,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 334.72,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 335.12,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 335.42,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 335.66,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 335.99,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 336.33,
+   "type": "TO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 336.64,
+   "type": "MS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 336.83,
+   "type": "HS",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 337.22,
+   "type": "PO",
+   "chunk": "YL2_c05"
+  },
+  {
+   "t": 337.53,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 337.83,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 338.02,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 338.45,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 338.76,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 339.06,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 339.27,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 339.68,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 340.07,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 340.39,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 340.53,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 340.95,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 341.12,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 341.55,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 341.72,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 342.12,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 342.44,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 342.79,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 343.0,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 343.46,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 343.72,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 344.06,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 344.26,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 344.66,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 344.97,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 345.33,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 345.54,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 345.95,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 346.27,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 346.61,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 346.82,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 347.27,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 347.55,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 347.88,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 348.1,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 348.48,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 348.79,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 349.17,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 349.34,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 349.76,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 349.94,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 350.31,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 350.51,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 350.96,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 351.29,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 351.57,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 351.8,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 352.18,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 352.55,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 352.87,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 353.04,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 353.46,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 353.81,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 354.11,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 354.33,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 354.68,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 355.07,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 355.4,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 355.59,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 356.08,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 356.35,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 356.63,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 356.88,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 358.11,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 358.57,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 358.94,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 359.28,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 359.46,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 359.77,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 360.13,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 360.44,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 360.7,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 361.18,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 361.47,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 361.84,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 361.99,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 362.41,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 362.72,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 363.05,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 363.28,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 363.7,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 364.02,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 364.37,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 364.53,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 364.94,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 365.25,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 365.56,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 365.8,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 366.6,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 366.74,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 367.2,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 367.38,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 367.8,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 368.12,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 368.43,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 368.65,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 369.02,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 369.42,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 369.75,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 369.92,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 370.33,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 370.68,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 371.0,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 371.18,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 371.62,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 371.93,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 372.24,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 372.46,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 372.84,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 373.22,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 373.51,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 373.8,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 375.42,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 375.88,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 376.21,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 376.4,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 376.81,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 377.15,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 377.51,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 377.67,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 378.15,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 378.41,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 378.76,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 378.93,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 379.32,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 379.66,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 379.99,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 380.19,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 380.58,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 380.97,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 381.3,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 381.45,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 381.86,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 382.24,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 382.57,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 382.77,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 383.47,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 383.64,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 383.98,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 384.17,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 384.99,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 385.4,
+   "type": "TO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 385.71,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 385.93,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 386.37,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 386.79,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 387.05,
+   "type": "MS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 387.36,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 390.15,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 390.45,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 390.72,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 390.97,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 391.49,
+   "type": "PO",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 391.84,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 392.18,
+   "type": "MS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 392.37,
+   "type": "HS",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 392.92,
+   "type": "PO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 393.21,
+   "type": "TO",
+   "chunk": "YL2_c06"
+  },
+  {
+   "t": 393.66,
+   "type": "HS",
+   "conf": "unsure",
+   "chunk": "YL2_c06"
+  }
+ ],
+ "still": [
+  [
+   0.0,
+   11.7
+  ],
+  [
+   134.88,
+   140.7
+  ],
+  [
+   384.3,
+   384.75
+  ],
+  [
+   388.5,
+   390.12
+  ]
+ ],
+ "unclear": [
+  [
+   11.7,
+   12.18
+  ],
+  [
+   54.18,
+   54.31
+  ],
+  [
+   65.4,
+   65.7
+  ],
+  [
+   78.09,
+   78.25
+  ],
+  [
+   85.9,
+   87.06
+  ],
+  [
+   116.78,
+   116.9
+  ],
+  [
+   161.6,
+   161.7
+  ],
+  [
+   165.17,
+   165.31
+  ],
+  [
+   192.4,
+   192.98
+  ],
+  [
+   243.5,
+   244.15
+  ],
+  [
+   254.62,
+   255.92
+  ],
+  [
+   265.4,
+   266.15
+  ],
+  [
+   275.6,
+   276.65
+  ],
+  [
+   283.03,
+   283.41
+  ],
+  [
+   284.7,
+   285.62
+  ],
+  [
+   286.39,
+   286.5
+  ],
+  [
+   293.34,
+   295.3
+  ],
+  [
+   304.28,
+   305.12
+  ],
+  [
+   310.59,
+   310.71
+  ],
+  [
+   312.94,
+   313.05
+  ],
+  [
+   313.4,
+   314.42
+  ],
+  [
+   321.88,
+   322.72
+  ],
+  [
+   356.94,
+   358.08
+  ],
+  [
+   374.38,
+   375.3
+  ],
+  [
+   393.38,
+   393.5
+  ]
+ ],
+ "chunks": [
+  "YL2_c00",
+  "YL2_c01",
+  "YL2_c02",
+  "YL2_c03",
+  "YL2_c04",
+  "YL2_c05",
+  "YL2_c06"
+ ]
+}

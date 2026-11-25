@@ -1,0 +1,465 @@
+method,label,true_phase,predicted_phase,count,row_share
+fsm,FSM (12 s calibration),STANCE,STANCE,79528,0.9006
+fsm,FSM (12 s calibration),STANCE,PRE_SWING,7254,0.0821
+fsm,FSM (12 s calibration),STANCE,SWING,27,0.0003
+fsm,FSM (12 s calibration),STANCE,TERMINAL_SWING,1498,0.017
+fsm,FSM (12 s calibration),PRE_SWING,STANCE,28038,0.6255
+fsm,FSM (12 s calibration),PRE_SWING,PRE_SWING,16777,0.3743
+fsm,FSM (12 s calibration),PRE_SWING,SWING,0,0.0
+fsm,FSM (12 s calibration),PRE_SWING,TERMINAL_SWING,8,0.0002
+fsm,FSM (12 s calibration),SWING,STANCE,6345,0.1285
+fsm,FSM (12 s calibration),SWING,PRE_SWING,19857,0.402
+fsm,FSM (12 s calibration),SWING,SWING,22926,0.4642
+fsm,FSM (12 s calibration),SWING,TERMINAL_SWING,264,0.0053
+fsm,FSM (12 s calibration),TERMINAL_SWING,STANCE,5143,0.1719
+fsm,FSM (12 s calibration),TERMINAL_SWING,PRE_SWING,64,0.0021
+fsm,FSM (12 s calibration),TERMINAL_SWING,SWING,9559,0.3196
+fsm,FSM (12 s calibration),TERMINAL_SWING,TERMINAL_SWING,15147,0.5064
+ml@loro,ML (new recording),STANCE,STANCE,80975,0.917
+ml@loro,ML (new recording),STANCE,PRE_SWING,4424,0.0501
+ml@loro,ML (new recording),STANCE,SWING,228,0.0026
+ml@loro,ML (new recording),STANCE,TERMINAL_SWING,2680,0.0303
+ml@loro,ML (new recording),PRE_SWING,STANCE,6519,0.1454
+ml@loro,ML (new recording),PRE_SWING,PRE_SWING,37574,0.8383
+ml@loro,ML (new recording),PRE_SWING,SWING,696,0.0155
+ml@loro,ML (new recording),PRE_SWING,TERMINAL_SWING,34,0.0008
+ml@loro,ML (new recording),SWING,STANCE,511,0.0103
+ml@loro,ML (new recording),SWING,PRE_SWING,2227,0.0451
+ml@loro,ML (new recording),SWING,SWING,45559,0.9224
+ml@loro,ML (new recording),SWING,TERMINAL_SWING,1095,0.0222
+ml@loro,ML (new recording),TERMINAL_SWING,STANCE,2958,0.0989
+ml@loro,ML (new recording),TERMINAL_SWING,PRE_SWING,20,0.0007
+ml@loro,ML (new recording),TERMINAL_SWING,SWING,2355,0.0787
+ml@loro,ML (new recording),TERMINAL_SWING,TERMINAL_SWING,24580,0.8217
+ml+gate@loro,ML + gate (new recording),STANCE,STANCE,77902,0.8822
+ml+gate@loro,ML + gate (new recording),STANCE,PRE_SWING,7415,0.084
+ml+gate@loro,ML + gate (new recording),STANCE,SWING,456,0.0052
+ml+gate@loro,ML + gate (new recording),STANCE,TERMINAL_SWING,2534,0.0287
+ml+gate@loro,ML + gate (new recording),PRE_SWING,STANCE,5196,0.1159
+ml+gate@loro,ML + gate (new recording),PRE_SWING,PRE_SWING,38617,0.8615
+ml+gate@loro,ML + gate (new recording),PRE_SWING,SWING,1003,0.0224
+ml+gate@loro,ML + gate (new recording),PRE_SWING,TERMINAL_SWING,7,0.0002
+ml+gate@loro,ML + gate (new recording),SWING,STANCE,230,0.0047
+ml+gate@loro,ML + gate (new recording),SWING,PRE_SWING,2400,0.0486
+ml+gate@loro,ML + gate (new recording),SWING,SWING,45261,0.9164
+ml+gate@loro,ML + gate (new recording),SWING,TERMINAL_SWING,1501,0.0304
+ml+gate@loro,ML + gate (new recording),TERMINAL_SWING,STANCE,4294,0.1435
+ml+gate@loro,ML + gate (new recording),TERMINAL_SWING,PRE_SWING,17,0.0006
+ml+gate@loro,ML + gate (new recording),TERMINAL_SWING,SWING,2247,0.0751
+ml+gate@loro,ML + gate (new recording),TERMINAL_SWING,TERMINAL_SWING,23355,0.7808
+logreg@loro,Logistic regression (new recording),STANCE,STANCE,74602,0.8448
+logreg@loro,Logistic regression (new recording),STANCE,PRE_SWING,6721,0.0761
+logreg@loro,Logistic regression (new recording),STANCE,SWING,830,0.0094
+logreg@loro,Logistic regression (new recording),STANCE,TERMINAL_SWING,6154,0.0697
+logreg@loro,Logistic regression (new recording),PRE_SWING,STANCE,5366,0.1197
+logreg@loro,Logistic regression (new recording),PRE_SWING,PRE_SWING,39121,0.8728
+logreg@loro,Logistic regression (new recording),PRE_SWING,SWING,318,0.0071
+logreg@loro,Logistic regression (new recording),PRE_SWING,TERMINAL_SWING,18,0.0004
+logreg@loro,Logistic regression (new recording),SWING,STANCE,1180,0.0239
+logreg@loro,Logistic regression (new recording),SWING,PRE_SWING,4471,0.0905
+logreg@loro,Logistic regression (new recording),SWING,SWING,42559,0.8617
+logreg@loro,Logistic regression (new recording),SWING,TERMINAL_SWING,1182,0.0239
+logreg@loro,Logistic regression (new recording),TERMINAL_SWING,STANCE,2139,0.0715
+logreg@loro,Logistic regression (new recording),TERMINAL_SWING,PRE_SWING,50,0.0017
+logreg@loro,Logistic regression (new recording),TERMINAL_SWING,SWING,3269,0.1093
+logreg@loro,Logistic regression (new recording),TERMINAL_SWING,TERMINAL_SWING,24455,0.8175
+logreg+gate@loro,Logistic regression (new recording),STANCE,STANCE,72811,0.8245
+logreg+gate@loro,Logistic regression (new recording),STANCE,PRE_SWING,8548,0.0968
+logreg+gate@loro,Logistic regression (new recording),STANCE,SWING,1165,0.0132
+logreg+gate@loro,Logistic regression (new recording),STANCE,TERMINAL_SWING,5783,0.0655
+logreg+gate@loro,Logistic regression (new recording),PRE_SWING,STANCE,4887,0.109
+logreg+gate@loro,Logistic regression (new recording),PRE_SWING,PRE_SWING,38173,0.8516
+logreg+gate@loro,Logistic regression (new recording),PRE_SWING,SWING,1761,0.0393
+logreg+gate@loro,Logistic regression (new recording),PRE_SWING,TERMINAL_SWING,2,0.0
+logreg+gate@loro,Logistic regression (new recording),SWING,STANCE,528,0.0107
+logreg+gate@loro,Logistic regression (new recording),SWING,PRE_SWING,4972,0.1007
+logreg+gate@loro,Logistic regression (new recording),SWING,SWING,42601,0.8625
+logreg+gate@loro,Logistic regression (new recording),SWING,TERMINAL_SWING,1291,0.0261
+logreg+gate@loro,Logistic regression (new recording),TERMINAL_SWING,STANCE,2541,0.0849
+logreg+gate@loro,Logistic regression (new recording),TERMINAL_SWING,PRE_SWING,4,0.0001
+logreg+gate@loro,Logistic regression (new recording),TERMINAL_SWING,SWING,3260,0.109
+logreg+gate@loro,Logistic regression (new recording),TERMINAL_SWING,TERMINAL_SWING,24108,0.8059
+linsvm@loro,Linear SVM (new recording),STANCE,STANCE,77644,0.8793
+linsvm@loro,Linear SVM (new recording),STANCE,PRE_SWING,6038,0.0684
+linsvm@loro,Linear SVM (new recording),STANCE,SWING,641,0.0073
+linsvm@loro,Linear SVM (new recording),STANCE,TERMINAL_SWING,3984,0.0451
+linsvm@loro,Linear SVM (new recording),PRE_SWING,STANCE,6896,0.1538
+linsvm@loro,Linear SVM (new recording),PRE_SWING,PRE_SWING,37678,0.8406
+linsvm@loro,Linear SVM (new recording),PRE_SWING,SWING,230,0.0051
+linsvm@loro,Linear SVM (new recording),PRE_SWING,TERMINAL_SWING,19,0.0004
+linsvm@loro,Linear SVM (new recording),SWING,STANCE,704,0.0143
+linsvm@loro,Linear SVM (new recording),SWING,PRE_SWING,4198,0.085
+linsvm@loro,Linear SVM (new recording),SWING,SWING,43501,0.8807
+linsvm@loro,Linear SVM (new recording),SWING,TERMINAL_SWING,989,0.02
+linsvm@loro,Linear SVM (new recording),TERMINAL_SWING,STANCE,2075,0.0694
+linsvm@loro,Linear SVM (new recording),TERMINAL_SWING,PRE_SWING,75,0.0025
+linsvm@loro,Linear SVM (new recording),TERMINAL_SWING,SWING,3354,0.1121
+linsvm@loro,Linear SVM (new recording),TERMINAL_SWING,TERMINAL_SWING,24409,0.816
+linsvm+gate@loro,Linear SVM (new recording),STANCE,STANCE,75967,0.8603
+linsvm+gate@loro,Linear SVM (new recording),STANCE,PRE_SWING,7214,0.0817
+linsvm+gate@loro,Linear SVM (new recording),STANCE,SWING,1286,0.0146
+linsvm+gate@loro,Linear SVM (new recording),STANCE,TERMINAL_SWING,3840,0.0435
+linsvm+gate@loro,Linear SVM (new recording),PRE_SWING,STANCE,6311,0.1408
+linsvm+gate@loro,Linear SVM (new recording),PRE_SWING,PRE_SWING,36758,0.8201
+linsvm+gate@loro,Linear SVM (new recording),PRE_SWING,SWING,1754,0.0391
+linsvm+gate@loro,Linear SVM (new recording),PRE_SWING,TERMINAL_SWING,0,0.0
+linsvm+gate@loro,Linear SVM (new recording),SWING,STANCE,311,0.0063
+linsvm+gate@loro,Linear SVM (new recording),SWING,PRE_SWING,4413,0.0893
+linsvm+gate@loro,Linear SVM (new recording),SWING,SWING,43588,0.8825
+linsvm+gate@loro,Linear SVM (new recording),SWING,TERMINAL_SWING,1080,0.0219
+linsvm+gate@loro,Linear SVM (new recording),TERMINAL_SWING,STANCE,3148,0.1052
+linsvm+gate@loro,Linear SVM (new recording),TERMINAL_SWING,PRE_SWING,4,0.0001
+linsvm+gate@loro,Linear SVM (new recording),TERMINAL_SWING,SWING,3343,0.1118
+linsvm+gate@loro,Linear SVM (new recording),TERMINAL_SWING,TERMINAL_SWING,23418,0.7829
+rf@loro,Random forest (new recording),STANCE,STANCE,82563,0.935
+rf@loro,Random forest (new recording),STANCE,PRE_SWING,3454,0.0391
+rf@loro,Random forest (new recording),STANCE,SWING,301,0.0034
+rf@loro,Random forest (new recording),STANCE,TERMINAL_SWING,1989,0.0225
+rf@loro,Random forest (new recording),PRE_SWING,STANCE,5489,0.1225
+rf@loro,Random forest (new recording),PRE_SWING,PRE_SWING,38958,0.8692
+rf@loro,Random forest (new recording),PRE_SWING,SWING,366,0.0082
+rf@loro,Random forest (new recording),PRE_SWING,TERMINAL_SWING,10,0.0002
+rf@loro,Random forest (new recording),SWING,STANCE,391,0.0079
+rf@loro,Random forest (new recording),SWING,PRE_SWING,2214,0.0448
+rf@loro,Random forest (new recording),SWING,SWING,46017,0.9317
+rf@loro,Random forest (new recording),SWING,TERMINAL_SWING,770,0.0156
+rf@loro,Random forest (new recording),TERMINAL_SWING,STANCE,2307,0.0771
+rf@loro,Random forest (new recording),TERMINAL_SWING,PRE_SWING,12,0.0004
+rf@loro,Random forest (new recording),TERMINAL_SWING,SWING,2173,0.0726
+rf@loro,Random forest (new recording),TERMINAL_SWING,TERMINAL_SWING,25421,0.8498
+rf+gate@loro,Random forest (new recording),STANCE,STANCE,79656,0.902
+rf+gate@loro,Random forest (new recording),STANCE,PRE_SWING,6113,0.0692
+rf+gate@loro,Random forest (new recording),STANCE,SWING,609,0.0069
+rf+gate@loro,Random forest (new recording),STANCE,TERMINAL_SWING,1929,0.0218
+rf+gate@loro,Random forest (new recording),PRE_SWING,STANCE,4509,0.1006
+rf+gate@loro,Random forest (new recording),PRE_SWING,PRE_SWING,39721,0.8862
+rf+gate@loro,Random forest (new recording),PRE_SWING,SWING,593,0.0132
+rf+gate@loro,Random forest (new recording),PRE_SWING,TERMINAL_SWING,0,0.0
+rf+gate@loro,Random forest (new recording),SWING,STANCE,127,0.0026
+rf+gate@loro,Random forest (new recording),SWING,PRE_SWING,2431,0.0492
+rf+gate@loro,Random forest (new recording),SWING,SWING,45705,0.9254
+rf+gate@loro,Random forest (new recording),SWING,TERMINAL_SWING,1129,0.0229
+rf+gate@loro,Random forest (new recording),TERMINAL_SWING,STANCE,3146,0.1052
+rf+gate@loro,Random forest (new recording),TERMINAL_SWING,PRE_SWING,43,0.0014
+rf+gate@loro,Random forest (new recording),TERMINAL_SWING,SWING,2053,0.0686
+rf+gate@loro,Random forest (new recording),TERMINAL_SWING,TERMINAL_SWING,24671,0.8248
+hgb@loro,Gradient boosting (new recording),STANCE,STANCE,80554,0.9122
+hgb@loro,Gradient boosting (new recording),STANCE,PRE_SWING,4570,0.0518
+hgb@loro,Gradient boosting (new recording),STANCE,SWING,732,0.0083
+hgb@loro,Gradient boosting (new recording),STANCE,TERMINAL_SWING,2451,0.0278
+hgb@loro,Gradient boosting (new recording),PRE_SWING,STANCE,4950,0.1104
+hgb@loro,Gradient boosting (new recording),PRE_SWING,PRE_SWING,39585,0.8831
+hgb@loro,Gradient boosting (new recording),PRE_SWING,SWING,266,0.0059
+hgb@loro,Gradient boosting (new recording),PRE_SWING,TERMINAL_SWING,22,0.0005
+hgb@loro,Gradient boosting (new recording),SWING,STANCE,723,0.0146
+hgb@loro,Gradient boosting (new recording),SWING,PRE_SWING,2859,0.0579
+hgb@loro,Gradient boosting (new recording),SWING,SWING,45070,0.9125
+hgb@loro,Gradient boosting (new recording),SWING,TERMINAL_SWING,740,0.015
+hgb@loro,Gradient boosting (new recording),TERMINAL_SWING,STANCE,1325,0.0443
+hgb@loro,Gradient boosting (new recording),TERMINAL_SWING,PRE_SWING,3,0.0001
+hgb@loro,Gradient boosting (new recording),TERMINAL_SWING,SWING,2231,0.0746
+hgb@loro,Gradient boosting (new recording),TERMINAL_SWING,TERMINAL_SWING,26354,0.881
+hgb+gate@loro,Gradient boosting (new recording),STANCE,STANCE,78564,0.8897
+hgb+gate@loro,Gradient boosting (new recording),STANCE,PRE_SWING,6362,0.072
+hgb+gate@loro,Gradient boosting (new recording),STANCE,SWING,985,0.0112
+hgb+gate@loro,Gradient boosting (new recording),STANCE,TERMINAL_SWING,2396,0.0271
+hgb+gate@loro,Gradient boosting (new recording),PRE_SWING,STANCE,4352,0.0971
+hgb+gate@loro,Gradient boosting (new recording),PRE_SWING,PRE_SWING,39746,0.8867
+hgb+gate@loro,Gradient boosting (new recording),PRE_SWING,SWING,725,0.0162
+hgb+gate@loro,Gradient boosting (new recording),PRE_SWING,TERMINAL_SWING,0,0.0
+hgb+gate@loro,Gradient boosting (new recording),SWING,STANCE,343,0.0069
+hgb+gate@loro,Gradient boosting (new recording),SWING,PRE_SWING,3114,0.063
+hgb+gate@loro,Gradient boosting (new recording),SWING,SWING,44939,0.9098
+hgb+gate@loro,Gradient boosting (new recording),SWING,TERMINAL_SWING,996,0.0202
+hgb+gate@loro,Gradient boosting (new recording),TERMINAL_SWING,STANCE,1468,0.0491
+hgb+gate@loro,Gradient boosting (new recording),TERMINAL_SWING,PRE_SWING,0,0.0
+hgb+gate@loro,Gradient boosting (new recording),TERMINAL_SWING,SWING,2121,0.0709
+hgb+gate@loro,Gradient boosting (new recording),TERMINAL_SWING,TERMINAL_SWING,26324,0.88
+mlp_shank@loro,"MLP, shank IMU only (new recording)",STANCE,STANCE,81950,0.928
+mlp_shank@loro,"MLP, shank IMU only (new recording)",STANCE,PRE_SWING,4176,0.0473
+mlp_shank@loro,"MLP, shank IMU only (new recording)",STANCE,SWING,155,0.0018
+mlp_shank@loro,"MLP, shank IMU only (new recording)",STANCE,TERMINAL_SWING,2026,0.0229
+mlp_shank@loro,"MLP, shank IMU only (new recording)",PRE_SWING,STANCE,5507,0.1229
+mlp_shank@loro,"MLP, shank IMU only (new recording)",PRE_SWING,PRE_SWING,38707,0.8636
+mlp_shank@loro,"MLP, shank IMU only (new recording)",PRE_SWING,SWING,598,0.0133
+mlp_shank@loro,"MLP, shank IMU only (new recording)",PRE_SWING,TERMINAL_SWING,11,0.0002
+mlp_shank@loro,"MLP, shank IMU only (new recording)",SWING,STANCE,498,0.0101
+mlp_shank@loro,"MLP, shank IMU only (new recording)",SWING,PRE_SWING,1864,0.0377
+mlp_shank@loro,"MLP, shank IMU only (new recording)",SWING,SWING,46172,0.9348
+mlp_shank@loro,"MLP, shank IMU only (new recording)",SWING,TERMINAL_SWING,858,0.0174
+mlp_shank@loro,"MLP, shank IMU only (new recording)",TERMINAL_SWING,STANCE,3103,0.1037
+mlp_shank@loro,"MLP, shank IMU only (new recording)",TERMINAL_SWING,PRE_SWING,30,0.001
+mlp_shank@loro,"MLP, shank IMU only (new recording)",TERMINAL_SWING,SWING,2093,0.07
+mlp_shank@loro,"MLP, shank IMU only (new recording)",TERMINAL_SWING,TERMINAL_SWING,24687,0.8253
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",STANCE,STANCE,78638,0.8905
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",STANCE,PRE_SWING,7325,0.0829
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",STANCE,SWING,369,0.0042
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",STANCE,TERMINAL_SWING,1975,0.0224
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",PRE_SWING,STANCE,4402,0.0982
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",PRE_SWING,PRE_SWING,39599,0.8835
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",PRE_SWING,SWING,822,0.0183
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",PRE_SWING,TERMINAL_SWING,0,0.0
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",SWING,STANCE,291,0.0059
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",SWING,PRE_SWING,1914,0.0388
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",SWING,SWING,45974,0.9308
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",SWING,TERMINAL_SWING,1213,0.0246
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",TERMINAL_SWING,STANCE,3599,0.1203
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",TERMINAL_SWING,PRE_SWING,24,0.0008
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",TERMINAL_SWING,SWING,2024,0.0677
+mlp_shank+gate@loro,"ML + gateP, shank IMU only (new recording)",TERMINAL_SWING,TERMINAL_SWING,24266,0.8112
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",STANCE,STANCE,69876,0.7913
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",STANCE,PRE_SWING,8995,0.1019
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",STANCE,SWING,3886,0.044
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",STANCE,TERMINAL_SWING,5550,0.0628
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",PRE_SWING,STANCE,11032,0.2461
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",PRE_SWING,PRE_SWING,31938,0.7125
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",PRE_SWING,SWING,1471,0.0328
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",PRE_SWING,TERMINAL_SWING,382,0.0085
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",SWING,STANCE,5550,0.1124
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",SWING,PRE_SWING,6992,0.1416
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",SWING,SWING,33337,0.6749
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",SWING,TERMINAL_SWING,3513,0.0711
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",TERMINAL_SWING,STANCE,4171,0.1394
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",TERMINAL_SWING,PRE_SWING,523,0.0175
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",TERMINAL_SWING,SWING,6457,0.2159
+mlp_thigh@loro,"MLP, thigh IMU only (new recording)",TERMINAL_SWING,TERMINAL_SWING,18762,0.6272
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",STANCE,STANCE,66278,0.7505
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",STANCE,PRE_SWING,11616,0.1315
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",STANCE,SWING,4779,0.0541
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",STANCE,TERMINAL_SWING,5634,0.0638
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",PRE_SWING,STANCE,8044,0.1795
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",PRE_SWING,PRE_SWING,34047,0.7596
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",PRE_SWING,SWING,2295,0.0512
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",PRE_SWING,TERMINAL_SWING,437,0.0097
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",SWING,STANCE,3619,0.0733
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",SWING,PRE_SWING,9052,0.1833
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",SWING,SWING,33205,0.6723
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",SWING,TERMINAL_SWING,3516,0.0712
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",TERMINAL_SWING,STANCE,5029,0.1681
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",TERMINAL_SWING,PRE_SWING,1032,0.0345
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",TERMINAL_SWING,SWING,6072,0.203
+mlp_thigh+gate@loro,"ML + gateP, thigh IMU only (new recording)",TERMINAL_SWING,TERMINAL_SWING,17780,0.5944
+ml@lopo,ML (new person),STANCE,STANCE,81927,0.9278
+ml@lopo,ML (new person),STANCE,PRE_SWING,3522,0.0399
+ml@lopo,ML (new person),STANCE,SWING,383,0.0043
+ml@lopo,ML (new person),STANCE,TERMINAL_SWING,2475,0.028
+ml@lopo,ML (new person),PRE_SWING,STANCE,10419,0.2324
+ml@lopo,ML (new person),PRE_SWING,PRE_SWING,33701,0.7519
+ml@lopo,ML (new person),PRE_SWING,SWING,691,0.0154
+ml@lopo,ML (new person),PRE_SWING,TERMINAL_SWING,12,0.0003
+ml@lopo,ML (new person),SWING,STANCE,345,0.007
+ml@lopo,ML (new person),SWING,PRE_SWING,2008,0.0407
+ml@lopo,ML (new person),SWING,SWING,45991,0.9311
+ml@lopo,ML (new person),SWING,TERMINAL_SWING,1048,0.0212
+ml@lopo,ML (new person),TERMINAL_SWING,STANCE,2412,0.0806
+ml@lopo,ML (new person),TERMINAL_SWING,PRE_SWING,51,0.0017
+ml@lopo,ML (new person),TERMINAL_SWING,SWING,2588,0.0865
+ml@lopo,ML (new person),TERMINAL_SWING,TERMINAL_SWING,24862,0.8311
+ml+gate@lopo,ML + gate (new person),STANCE,STANCE,79851,0.9042
+ml+gate@lopo,ML + gate (new person),STANCE,PRE_SWING,5881,0.0666
+ml+gate@lopo,ML + gate (new person),STANCE,SWING,659,0.0075
+ml+gate@lopo,ML + gate (new person),STANCE,TERMINAL_SWING,1916,0.0217
+ml+gate@lopo,ML + gate (new person),PRE_SWING,STANCE,8910,0.1988
+ml+gate@lopo,ML + gate (new person),PRE_SWING,PRE_SWING,35066,0.7823
+ml+gate@lopo,ML + gate (new person),PRE_SWING,SWING,843,0.0188
+ml+gate@lopo,ML + gate (new person),PRE_SWING,TERMINAL_SWING,4,0.0001
+ml+gate@lopo,ML + gate (new person),SWING,STANCE,202,0.0041
+ml+gate@lopo,ML + gate (new person),SWING,PRE_SWING,2060,0.0417
+ml+gate@lopo,ML + gate (new person),SWING,SWING,45730,0.9259
+ml+gate@lopo,ML + gate (new person),SWING,TERMINAL_SWING,1400,0.0283
+ml+gate@lopo,ML + gate (new person),TERMINAL_SWING,STANCE,3036,0.1015
+ml+gate@lopo,ML + gate (new person),TERMINAL_SWING,PRE_SWING,7,0.0002
+ml+gate@lopo,ML + gate (new person),TERMINAL_SWING,SWING,2554,0.0854
+ml+gate@lopo,ML + gate (new person),TERMINAL_SWING,TERMINAL_SWING,24316,0.8129
+logreg@lopo,Logistic regression (new person),STANCE,STANCE,77145,0.8736
+logreg@lopo,Logistic regression (new person),STANCE,PRE_SWING,5320,0.0602
+logreg@lopo,Logistic regression (new person),STANCE,SWING,732,0.0083
+logreg@lopo,Logistic regression (new person),STANCE,TERMINAL_SWING,5110,0.0579
+logreg@lopo,Logistic regression (new person),PRE_SWING,STANCE,9573,0.2136
+logreg@lopo,Logistic regression (new person),PRE_SWING,PRE_SWING,35002,0.7809
+logreg@lopo,Logistic regression (new person),PRE_SWING,SWING,224,0.005
+logreg@lopo,Logistic regression (new person),PRE_SWING,TERMINAL_SWING,24,0.0005
+logreg@lopo,Logistic regression (new person),SWING,STANCE,2402,0.0486
+logreg@lopo,Logistic regression (new person),SWING,PRE_SWING,3616,0.0732
+logreg@lopo,Logistic regression (new person),SWING,SWING,42013,0.8506
+logreg@lopo,Logistic regression (new person),SWING,TERMINAL_SWING,1361,0.0276
+logreg@lopo,Logistic regression (new person),TERMINAL_SWING,STANCE,3260,0.109
+logreg@lopo,Logistic regression (new person),TERMINAL_SWING,PRE_SWING,28,0.0009
+logreg@lopo,Logistic regression (new person),TERMINAL_SWING,SWING,3314,0.1108
+logreg@lopo,Logistic regression (new person),TERMINAL_SWING,TERMINAL_SWING,23311,0.7793
+logreg+gate@lopo,Logistic regression (new person),STANCE,STANCE,75905,0.8596
+logreg+gate@lopo,Logistic regression (new person),STANCE,PRE_SWING,7141,0.0809
+logreg+gate@lopo,Logistic regression (new person),STANCE,SWING,776,0.0088
+logreg+gate@lopo,Logistic regression (new person),STANCE,TERMINAL_SWING,4485,0.0508
+logreg+gate@lopo,Logistic regression (new person),PRE_SWING,STANCE,7946,0.1773
+logreg+gate@lopo,Logistic regression (new person),PRE_SWING,PRE_SWING,36511,0.8146
+logreg+gate@lopo,Logistic regression (new person),PRE_SWING,SWING,360,0.008
+logreg+gate@lopo,Logistic regression (new person),PRE_SWING,TERMINAL_SWING,6,0.0001
+logreg+gate@lopo,Logistic regression (new person),SWING,STANCE,1001,0.0203
+logreg+gate@lopo,Logistic regression (new person),SWING,PRE_SWING,4904,0.0993
+logreg+gate@lopo,Logistic regression (new person),SWING,SWING,42043,0.8512
+logreg+gate@lopo,Logistic regression (new person),SWING,TERMINAL_SWING,1444,0.0292
+logreg+gate@lopo,Logistic regression (new person),TERMINAL_SWING,STANCE,3374,0.1128
+logreg+gate@lopo,Logistic regression (new person),TERMINAL_SWING,PRE_SWING,13,0.0004
+logreg+gate@lopo,Logistic regression (new person),TERMINAL_SWING,SWING,3263,0.1091
+logreg+gate@lopo,Logistic regression (new person),TERMINAL_SWING,TERMINAL_SWING,23263,0.7777
+linsvm@lopo,Linear SVM (new person),STANCE,STANCE,79626,0.9017
+linsvm@lopo,Linear SVM (new person),STANCE,PRE_SWING,5199,0.0589
+linsvm@lopo,Linear SVM (new person),STANCE,SWING,660,0.0075
+linsvm@lopo,Linear SVM (new person),STANCE,TERMINAL_SWING,2822,0.032
+linsvm@lopo,Linear SVM (new person),PRE_SWING,STANCE,9087,0.2027
+linsvm@lopo,Linear SVM (new person),PRE_SWING,PRE_SWING,35313,0.7878
+linsvm@lopo,Linear SVM (new person),PRE_SWING,SWING,390,0.0087
+linsvm@lopo,Linear SVM (new person),PRE_SWING,TERMINAL_SWING,33,0.0007
+linsvm@lopo,Linear SVM (new person),SWING,STANCE,1875,0.038
+linsvm@lopo,Linear SVM (new person),SWING,PRE_SWING,2652,0.0537
+linsvm@lopo,Linear SVM (new person),SWING,SWING,43806,0.8869
+linsvm@lopo,Linear SVM (new person),SWING,TERMINAL_SWING,1059,0.0214
+linsvm@lopo,Linear SVM (new person),TERMINAL_SWING,STANCE,3760,0.1257
+linsvm@lopo,Linear SVM (new person),TERMINAL_SWING,PRE_SWING,52,0.0017
+linsvm@lopo,Linear SVM (new person),TERMINAL_SWING,SWING,3043,0.1017
+linsvm@lopo,Linear SVM (new person),TERMINAL_SWING,TERMINAL_SWING,23058,0.7708
+linsvm+gate@lopo,Linear SVM (new person),STANCE,STANCE,77018,0.8722
+linsvm+gate@lopo,Linear SVM (new person),STANCE,PRE_SWING,7686,0.087
+linsvm+gate@lopo,Linear SVM (new person),STANCE,SWING,927,0.0105
+linsvm+gate@lopo,Linear SVM (new person),STANCE,TERMINAL_SWING,2676,0.0303
+linsvm+gate@lopo,Linear SVM (new person),PRE_SWING,STANCE,7627,0.1702
+linsvm+gate@lopo,Linear SVM (new person),PRE_SWING,PRE_SWING,36403,0.8122
+linsvm+gate@lopo,Linear SVM (new person),PRE_SWING,SWING,793,0.0177
+linsvm+gate@lopo,Linear SVM (new person),PRE_SWING,TERMINAL_SWING,0,0.0
+linsvm+gate@lopo,Linear SVM (new person),SWING,STANCE,852,0.0172
+linsvm+gate@lopo,Linear SVM (new person),SWING,PRE_SWING,3481,0.0705
+linsvm+gate@lopo,Linear SVM (new person),SWING,SWING,43909,0.889
+linsvm+gate@lopo,Linear SVM (new person),SWING,TERMINAL_SWING,1150,0.0233
+linsvm+gate@lopo,Linear SVM (new person),TERMINAL_SWING,STANCE,3920,0.131
+linsvm+gate@lopo,Linear SVM (new person),TERMINAL_SWING,PRE_SWING,3,0.0001
+linsvm+gate@lopo,Linear SVM (new person),TERMINAL_SWING,SWING,3054,0.1021
+linsvm+gate@lopo,Linear SVM (new person),TERMINAL_SWING,TERMINAL_SWING,22936,0.7668
+rf@lopo,Random forest (new person),STANCE,STANCE,84256,0.9541
+rf@lopo,Random forest (new person),STANCE,PRE_SWING,2413,0.0273
+rf@lopo,Random forest (new person),STANCE,SWING,548,0.0062
+rf@lopo,Random forest (new person),STANCE,TERMINAL_SWING,1090,0.0123
+rf@lopo,Random forest (new person),PRE_SWING,STANCE,7909,0.1764
+rf@lopo,Random forest (new person),PRE_SWING,PRE_SWING,36404,0.8122
+rf@lopo,Random forest (new person),PRE_SWING,SWING,504,0.0112
+rf@lopo,Random forest (new person),PRE_SWING,TERMINAL_SWING,6,0.0001
+rf@lopo,Random forest (new person),SWING,STANCE,504,0.0102
+rf@lopo,Random forest (new person),SWING,PRE_SWING,1793,0.0363
+rf@lopo,Random forest (new person),SWING,SWING,46310,0.9376
+rf@lopo,Random forest (new person),SWING,TERMINAL_SWING,785,0.0159
+rf@lopo,Random forest (new person),TERMINAL_SWING,STANCE,2389,0.0799
+rf@lopo,Random forest (new person),TERMINAL_SWING,PRE_SWING,0,0.0
+rf@lopo,Random forest (new person),TERMINAL_SWING,SWING,1864,0.0623
+rf@lopo,Random forest (new person),TERMINAL_SWING,TERMINAL_SWING,25660,0.8578
+rf+gate@lopo,Random forest (new person),STANCE,STANCE,81464,0.9225
+rf+gate@lopo,Random forest (new person),STANCE,PRE_SWING,4980,0.0564
+rf+gate@lopo,Random forest (new person),STANCE,SWING,803,0.0091
+rf+gate@lopo,Random forest (new person),STANCE,TERMINAL_SWING,1060,0.012
+rf+gate@lopo,Random forest (new person),PRE_SWING,STANCE,6780,0.1513
+rf+gate@lopo,Random forest (new person),PRE_SWING,PRE_SWING,36954,0.8244
+rf+gate@lopo,Random forest (new person),PRE_SWING,SWING,1089,0.0243
+rf+gate@lopo,Random forest (new person),PRE_SWING,TERMINAL_SWING,0,0.0
+rf+gate@lopo,Random forest (new person),SWING,STANCE,216,0.0044
+rf+gate@lopo,Random forest (new person),SWING,PRE_SWING,2004,0.0406
+rf+gate@lopo,Random forest (new person),SWING,SWING,45892,0.9291
+rf+gate@lopo,Random forest (new person),SWING,TERMINAL_SWING,1280,0.0259
+rf+gate@lopo,Random forest (new person),TERMINAL_SWING,STANCE,2921,0.0976
+rf+gate@lopo,Random forest (new person),TERMINAL_SWING,PRE_SWING,0,0.0
+rf+gate@lopo,Random forest (new person),TERMINAL_SWING,SWING,1765,0.059
+rf+gate@lopo,Random forest (new person),TERMINAL_SWING,TERMINAL_SWING,25227,0.8433
+hgb@lopo,Gradient boosting (new person),STANCE,STANCE,82356,0.9326
+hgb@lopo,Gradient boosting (new person),STANCE,PRE_SWING,2286,0.0259
+hgb@lopo,Gradient boosting (new person),STANCE,SWING,1044,0.0118
+hgb@lopo,Gradient boosting (new person),STANCE,TERMINAL_SWING,2621,0.0297
+hgb@lopo,Gradient boosting (new person),PRE_SWING,STANCE,9392,0.2095
+hgb@lopo,Gradient boosting (new person),PRE_SWING,PRE_SWING,35010,0.7811
+hgb@lopo,Gradient boosting (new person),PRE_SWING,SWING,412,0.0092
+hgb@lopo,Gradient boosting (new person),PRE_SWING,TERMINAL_SWING,9,0.0002
+hgb@lopo,Gradient boosting (new person),SWING,STANCE,855,0.0173
+hgb@lopo,Gradient boosting (new person),SWING,PRE_SWING,3972,0.0804
+hgb@lopo,Gradient boosting (new person),SWING,SWING,43636,0.8835
+hgb@lopo,Gradient boosting (new person),SWING,TERMINAL_SWING,929,0.0188
+hgb@lopo,Gradient boosting (new person),TERMINAL_SWING,STANCE,1296,0.0433
+hgb@lopo,Gradient boosting (new person),TERMINAL_SWING,PRE_SWING,0,0.0
+hgb@lopo,Gradient boosting (new person),TERMINAL_SWING,SWING,3975,0.1329
+hgb@lopo,Gradient boosting (new person),TERMINAL_SWING,TERMINAL_SWING,24642,0.8238
+hgb+gate@lopo,Gradient boosting (new person),STANCE,STANCE,80558,0.9122
+hgb+gate@lopo,Gradient boosting (new person),STANCE,PRE_SWING,3593,0.0407
+hgb+gate@lopo,Gradient boosting (new person),STANCE,SWING,1325,0.015
+hgb+gate@lopo,Gradient boosting (new person),STANCE,TERMINAL_SWING,2831,0.0321
+hgb+gate@lopo,Gradient boosting (new person),PRE_SWING,STANCE,8733,0.1948
+hgb+gate@lopo,Gradient boosting (new person),PRE_SWING,PRE_SWING,35293,0.7874
+hgb+gate@lopo,Gradient boosting (new person),PRE_SWING,SWING,797,0.0178
+hgb+gate@lopo,Gradient boosting (new person),PRE_SWING,TERMINAL_SWING,0,0.0
+hgb+gate@lopo,Gradient boosting (new person),SWING,STANCE,349,0.0071
+hgb+gate@lopo,Gradient boosting (new person),SWING,PRE_SWING,4318,0.0874
+hgb+gate@lopo,Gradient boosting (new person),SWING,SWING,43411,0.8789
+hgb+gate@lopo,Gradient boosting (new person),SWING,TERMINAL_SWING,1314,0.0266
+hgb+gate@lopo,Gradient boosting (new person),TERMINAL_SWING,STANCE,1468,0.0491
+hgb+gate@lopo,Gradient boosting (new person),TERMINAL_SWING,PRE_SWING,3,0.0001
+hgb+gate@lopo,Gradient boosting (new person),TERMINAL_SWING,SWING,3953,0.1321
+hgb+gate@lopo,Gradient boosting (new person),TERMINAL_SWING,TERMINAL_SWING,24489,0.8187
+mlp_shank@lopo,"MLP, shank IMU only (new person)",STANCE,STANCE,82024,0.9289
+mlp_shank@lopo,"MLP, shank IMU only (new person)",STANCE,PRE_SWING,3752,0.0425
+mlp_shank@lopo,"MLP, shank IMU only (new person)",STANCE,SWING,656,0.0074
+mlp_shank@lopo,"MLP, shank IMU only (new person)",STANCE,TERMINAL_SWING,1875,0.0212
+mlp_shank@lopo,"MLP, shank IMU only (new person)",PRE_SWING,STANCE,8756,0.1953
+mlp_shank@lopo,"MLP, shank IMU only (new person)",PRE_SWING,PRE_SWING,35229,0.786
+mlp_shank@lopo,"MLP, shank IMU only (new person)",PRE_SWING,SWING,827,0.0185
+mlp_shank@lopo,"MLP, shank IMU only (new person)",PRE_SWING,TERMINAL_SWING,11,0.0002
+mlp_shank@lopo,"MLP, shank IMU only (new person)",SWING,STANCE,1431,0.029
+mlp_shank@lopo,"MLP, shank IMU only (new person)",SWING,PRE_SWING,1743,0.0353
+mlp_shank@lopo,"MLP, shank IMU only (new person)",SWING,SWING,45099,0.9131
+mlp_shank@lopo,"MLP, shank IMU only (new person)",SWING,TERMINAL_SWING,1119,0.0227
+mlp_shank@lopo,"MLP, shank IMU only (new person)",TERMINAL_SWING,STANCE,4319,0.1444
+mlp_shank@lopo,"MLP, shank IMU only (new person)",TERMINAL_SWING,PRE_SWING,54,0.0018
+mlp_shank@lopo,"MLP, shank IMU only (new person)",TERMINAL_SWING,SWING,2543,0.085
+mlp_shank@lopo,"MLP, shank IMU only (new person)",TERMINAL_SWING,TERMINAL_SWING,22997,0.7688
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",STANCE,STANCE,76643,0.8679
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",STANCE,PRE_SWING,7823,0.0886
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",STANCE,SWING,2131,0.0241
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",STANCE,TERMINAL_SWING,1710,0.0194
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",PRE_SWING,STANCE,6692,0.1493
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",PRE_SWING,PRE_SWING,36063,0.8046
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",PRE_SWING,SWING,2048,0.0457
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",PRE_SWING,TERMINAL_SWING,20,0.0004
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",SWING,STANCE,887,0.018
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",SWING,PRE_SWING,1645,0.0333
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",SWING,SWING,45136,0.9138
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",SWING,TERMINAL_SWING,1724,0.0349
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",TERMINAL_SWING,STANCE,3872,0.1294
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",TERMINAL_SWING,PRE_SWING,36,0.0012
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",TERMINAL_SWING,SWING,2436,0.0814
+mlp_shank+gate@lopo,"ML + gateP, shank IMU only (new person)",TERMINAL_SWING,TERMINAL_SWING,23569,0.7879
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",STANCE,STANCE,63435,0.7183
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",STANCE,PRE_SWING,9356,0.1059
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",STANCE,SWING,4070,0.0461
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",STANCE,TERMINAL_SWING,11446,0.1296
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",PRE_SWING,STANCE,16280,0.3632
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",PRE_SWING,PRE_SWING,26346,0.5878
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",PRE_SWING,SWING,1734,0.0387
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",PRE_SWING,TERMINAL_SWING,463,0.0103
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",SWING,STANCE,3156,0.0639
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",SWING,PRE_SWING,6130,0.1241
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",SWING,SWING,35889,0.7266
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",SWING,TERMINAL_SWING,4217,0.0854
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",TERMINAL_SWING,STANCE,4771,0.1595
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",TERMINAL_SWING,PRE_SWING,618,0.0207
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",TERMINAL_SWING,SWING,10041,0.3357
+mlp_thigh@lopo,"MLP, thigh IMU only (new person)",TERMINAL_SWING,TERMINAL_SWING,14483,0.4842
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",STANCE,STANCE,60959,0.6903
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",STANCE,PRE_SWING,14511,0.1643
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",STANCE,SWING,4058,0.046
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",STANCE,TERMINAL_SWING,8779,0.0994
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",PRE_SWING,STANCE,11305,0.2522
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",PRE_SWING,PRE_SWING,30724,0.6855
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",PRE_SWING,SWING,2092,0.0467
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",PRE_SWING,TERMINAL_SWING,702,0.0157
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",SWING,STANCE,2295,0.0465
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",SWING,PRE_SWING,5766,0.1167
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",SWING,SWING,35955,0.728
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",SWING,TERMINAL_SWING,5376,0.1088
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",TERMINAL_SWING,STANCE,6292,0.2103
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",TERMINAL_SWING,PRE_SWING,516,0.0173
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",TERMINAL_SWING,SWING,9020,0.3015
+mlp_thigh+gate@lopo,"ML + gateP, thigh IMU only (new person)",TERMINAL_SWING,TERMINAL_SWING,14085,0.4709

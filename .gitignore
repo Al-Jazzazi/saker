@@ -76,3 +76,6 @@ htmlcov/
 
 # Documentation builds
 docs/_build/
+
+# Wi-Fi passwords for the ESP32 sketches
+secrets.h
