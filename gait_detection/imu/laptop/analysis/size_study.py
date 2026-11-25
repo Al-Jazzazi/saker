@@ -67,11 +67,10 @@ def size_of(model):
 def configs():
     out = []
     for h in HIST:   # input size, with the benchmark's default models
-        out += [("input", "MLP 32-16", h, ("mlp", (32, 16))), ("input", "Gradient boosting", h, ("hgb", 200, 31)),
-                ("input", "Random forest", h, ("rf", 150, None))]
+        out += [("input", "MLP 32-16", h, ("mlp", (32, 16))), ("input", "Gradient boosting", h, ("hgb", 200, 31))]
     for hid in ((8,), (16,), (16, 8), (32, 16), (64, 32), (128, 64)):
         out.append(("model", "MLP " + "-".join(map(str, hid)), 100, ("mlp", hid)))
-    for trees, depth in ((10, 8), (25, 10), (50, 12), (150, None)):
+    for trees, depth in ((10, 8), (25, 10), (50, 12)):
         out.append(("model", f"Random forest {trees} trees, depth {depth or 'free'}", 100, ("rf", trees, depth)))
     for it, leaves in ((25, 15), (50, 15), (100, 31), (200, 31)):
         out.append(("model", f"Gradient boosting {it} rounds, {leaves} leaves", 100, ("hgb", it, leaves)))
@@ -118,7 +117,8 @@ def run(cfg):
 
 if __name__ == "__main__":
     rows = []
-    with ProcessPoolExecutor(6) as ex:
+    import os
+    with ProcessPoolExecutor(int(os.environ.get("WORKERS", 6))) as ex:
         for r in ex.map(run, configs()):
             rows.append(r)
             print(r["study"], r["model"], r["history_ms"], "ms", r["macro_f1"], r["memory_kB"], "kB", flush=True)

@@ -292,4 +292,4 @@ def main(raw, out=OUT, recs=RECS):
 
 
 if __name__ == "__main__":
-    main(np.load(OUT / "raw_results.npy", allow_pickle=True).item())
+    main(np.load(OUT / "raw_results.npz", allow_pickle=True)["results"][0])

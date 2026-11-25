@@ -80,6 +80,72 @@ Test set (identical for every method): in each recording everything after **walk
 
 ![online](figures/online_curve.png)
 
+### 3b. Online learning for every model (phase macro F1)
+
+| model | trained on | no fine-tune | hand labels 12 s | hand labels 30 s | best self-labelled (rule / FSM) | false HS/100: none → hand 30 s |
+|---|---|---|---|---|---|---|
+| MLP (both IMUs) | other recordings | 0.879 | 0.887 | 0.895 | 0.836 (lookahead, 6 s) | 36.6 → 20.5 |
+| MLP, shank only | other recordings | 0.894 | 0.896 | 0.903 | 0.842 (lookahead, 6 s) | 27.6 → 10.3 |
+| MLP, thigh only | other recordings | 0.704 | 0.742 | 0.774 | 0.713 (lookahead, 30 s) | 65.9 → 25.0 |
+| Random forest | other recordings | 0.901 | 0.908 | 0.910 | 0.905 (lookahead, 30 s) | 22.2 → 5.7 |
+| Gradient boosting | other recordings | 0.897 | 0.734 | 0.632 | 0.642 (lookahead, 12 s) | 17.0 → 155.2 |
+| Linear SVM | other recordings | 0.854 | 0.862 | 0.873 | 0.824 (lookahead, 30 s) | 24.5 → 6.4 |
+| Logistic regression | other recordings | 0.842 | 0.858 | 0.871 | 0.822 (lookahead, 12 s) | 23.8 → 5.7 |
+| MLP (both IMUs) | other person | 0.869 | 0.880 | 0.893 | 0.824 (lookahead, 20 s) | 32.3 → 7.5 |
+| MLP, shank only | other person | 0.862 | 0.889 | 0.896 | 0.834 (lookahead, 12 s) | 76.7 → 37.7 |
+| MLP, thigh only | other person | 0.628 | 0.743 | 0.780 | 0.724 (lookahead, 20 s) | 141.0 → 46.6 |
+| Random forest | other person | 0.901 | 0.911 | 0.915 | 0.901 (lookahead, 30 s) | 24.7 → 9.4 |
+| Gradient boosting | other person | 0.863 | 0.700 | 0.673 | 0.685 (lookahead, 12 s) | 15.3 → 97.8 |
+| Linear SVM | other person | 0.846 | 0.874 | 0.885 | 0.836 (lookahead, 30 s) | 44.3 → 8.0 |
+| Logistic regression | other person | 0.825 | 0.853 | 0.870 | 0.815 (lookahead, 30 s) | 40.9 → 8.4 |
+
+How each model is adapted: neural nets are fine-tuned by gradient steps; gradient boosting gets 50 more boosting rounds fitted to the new walker; random forest gets 50 more trees grown on the new walker; linear models are refit with the new walker's seconds weighted as much as all training data.
+
+
+## 3e. Interpretability: what the models rely on
+
+Permutation importance, leave one recording out: shuffle one group of inputs in the test recording and see how much phase macro F1 drops (mean over the 7 recordings, min–max in brackets).
+
+| input group | features | random forest | gradient boosting | neural net |
+|---|---|---|---|---|
+| signal: shank rate | 23 | 0.624 [0.551–0.652] | 0.600 [0.541–0.645] | 0.531 [0.437–0.622] |
+| signal: thigh rate | 23 | 0.006 [0.002–0.008] | 0.004 [-0.001–0.009] | 0.016 [0.008–0.038] |
+| signal: shank acceleration | 15 | 0.007 [-0.045–0.022] | 0.021 [0.009–0.035] | 0.042 [-0.015–0.063] |
+| signal: thigh rotation speed | 15 | 0.010 [0.003–0.017] | 0.013 [0.007–0.026] | 0.023 [0.014–0.037] |
+| kind: value now | 4 | 0.010 [0.003–0.043] | 0.028 [0.010–0.105] | 0.026 [0.010–0.057] |
+| kind: recent change | 32 | 0.177 [0.141–0.216] | 0.132 [0.101–0.161] | 0.171 [0.129–0.221] |
+| kind: 200 ms window | 24 | 0.276 [0.242–0.299] | 0.284 [0.261–0.296] | 0.218 [0.171–0.260] |
+| kind: 0.5-1 s window | 16 | 0.098 [0.078–0.120] | 0.082 [0.066–0.098] | 0.101 [0.053–0.169] |
+
+Top features the random forest splits on (impurity importance, mean of 7 folds):
+
+| rank | feature | kind | importance |
+|---|---|---|---|
+| 1 | `shank_sag_mean20` | 200 ms window | 0.0648 |
+| 2 | `shank_sag_max20` | 200 ms window | 0.0632 |
+| 3 | `shank_sag_since_max100` | 0.5-1 s window | 0.0569 |
+| 4 | `shank_sag_d1` | recent change | 0.0526 |
+| 5 | `shank_sag_d2` | recent change | 0.051 |
+| 6 | `shank_sag_d8` | recent change | 0.0478 |
+| 7 | `shank_sag_min20` | 200 ms window | 0.0472 |
+| 8 | `shank_sag_d5` | recent change | 0.047 |
+| 9 | `shank_sag_max50` | 0.5-1 s window | 0.0439 |
+| 10 | `shank_sag_d3` | recent change | 0.0392 |
+| 11 | `shank_sag` | value now | 0.0313 |
+| 12 | `shank_sag_since_min20` | 200 ms window | 0.0306 |
+| 13 | `shank_sag_d12` | recent change | 0.0305 |
+| 14 | `shank_sag_since_max50` | 0.5-1 s window | 0.0248 |
+| 15 | `shank_sag_since_max20` | 200 ms window | 0.0242 |
+
+Where the errors are: share of wrongly labelled samples that lie within 100 ms of a true phase change (timing at the boundaries) rather than mid-phase (a wrong phase altogether).
+
+| method | wrong samples | within 100 ms of a phase change |
+|---|---|---|
+| fsm | 78057 | 64.3% |
+| ml@loro | 23747 | 86.6% |
+| rf@loro | 19476 | 88.1% |
+| hgb@loro | 20872 | 86.2% |
+
 ## 4. Per recording (macro F1)
 
 | method | YR1 | YR2 | AL1 | AL2 | YL1 | YL2 | YL3 |
@@ -107,64 +173,3 @@ Test set (identical for every method): in each recording everything after **walk
 - Truth is by-eye on IMU traces, with no video or foot switch. Push-off is the least certain mark, and the FSM's push-off threshold (60% of the dip) sits later than the by-eye push-off by design.
 - ~7-10% of samples are lost over Wi-Fi; events hidden by a gap are marked unclear and not scored.
 - Annotation: 36 chunks by Opus agents; the last 14 completed by Sonnet at low effort (mostly verifying earlier Opus drafts). 1 chunk fully reviewed, 3 reviews stopped part-way; blind doubles cancelled to save credits.
-
-## 8. Interpretation (written from the final run; numbers are in tables 1–3)
-
-### FSM (board GaitFsm, 12 s calibration)
-
-- **Heel strike, the only event that fires the motor, is excellent.**
-  - It finds 98.7% of heel strikes, with 1.2 false ones per 100 strides and only 2 during standing.
-  - It fires a median 30 ms early: it triggers when the shank rate drops below `heelStrike` just after the zero crossing, slightly before the impact. The P90 error is 60 ms.
-  - Its HS F1 (0.987) is the best of every method tested.
-- **The phases are poor (macro F1 0.59)** because its thresholds fire late by design:
-  - toe-off is a median 140 ms late (it waits for the shank to rise past swingEnter), so only 27% land within ±150 ms, though 99% land within ±300 ms;
-  - mid-swing is 60 ms late (it waits for the drop to 80% of the peak);
-  - push-off is 90–200 ms late (it waits for 60% of the dip).
-- So the FSM is late, not lost. It cuts the stride at the wrong moments, but it still produces one clean stride per stride.
-
-### ML (MLP, 3k weights, trained on other recordings)
-
-- **The phases are far better (macro F1 0.88).** Every event is a median 10 ms from the manual mark, and toe-off and mid-swing are found ≥ 99.8% of the time.
-- **It generalises to a new person**, at least with 2 people: macro F1 drops only from 0.879 (new recording) to 0.869 (new person).
-- **But it fires many false heel strikes: about 32–37 per 100 strides.** The phase output flickers around stance/terminal swing, and each flicker becomes an extra heel-strike event. Trained on the other person, it also gave 27 false heel strikes while standing.
-- As a motor trigger it's worse than the FSM. That would need a refractory period or an FSM-style "one heel strike per stride" gate on top.
-
-### ML + online learning (fine-tune on the first x s of normal walking)
-
-- **With manual labels it helps, and it helps most on a new person.**
-  - Fine-tuning on 30 s raises macro F1 to 0.893–0.895.
-  - False heel strikes fall from 32 to 7.5 per 100 strides (new person) and from 37 to 20.5 (new recording).
-  - Even 12 s gives most of the gain.
-  - But someone has to label those seconds, so this is an upper bound, not something the board can do by itself.
-- **The two label sources the board could use by itself don't help:**
-  - **FSM pseudo-labels make it much worse** (macro F1 about 0.58–0.64). The model learns the FSM's lag: its toe-offs and push-offs move late like the FSM's.
-  - **Look-ahead pseudo-labels** (the offline shank-gyro rule run on the buffer) **are slightly worse than no fine-tuning** (0.82–0.84 vs 0.87–0.88). That rule puts push-off at "12% of the stride before toe-off", which disagrees with where push-off actually is (median +110 ms vs the manual marks), so the model gets pulled away from the truth.
-- **Conclusion: online learning is only worth it if the labels for the fine-tuning seconds are good.** Self-labelling with the FSM or the simple rule doesn't buy anything here.
-
-### Different models and sensors (table 1b)
-
-- **Tree ensembles are the best ML models.** All six models get the same features and the same test set.
-  - Random forest: macro F1 0.901 on both a new recording and a new person.
-  - Gradient boosting: 0.897 on a new recording, 0.863 on a new person.
-  - Both beat the MLP (0.879 / 0.869), and the linear models trail (0.84–0.85).
-  - Gradient boosting has the fewest false heel strikes of any ML model: 17 per 100 strides, 9.4 with the gate on a new person.
-- **The shank carries the signal.**
-  - An MLP on the shank IMU alone (0.894) does as well as both IMUs.
-  - The thigh alone is poor (0.63–0.70), with many false heel strikes.
-  - This matches the FSM's design, which also works mainly from the shank.
-- **The "one heel strike per stride" gate** only lets phases move forward round the cycle, and requires a swing and ≥ 300 ms between heel strikes.
-  - It halves false heel strikes: MLP 36.6 → 18.3, gradient boosting 17.0 → 12.8.
-  - It costs 0.01–0.02 macro F1 and, for some models, some recall.
-  - Even the best gated ML (9.4 per 100) is still about 8× noisier than the FSM (1.2 per 100).
-
-### What to use
-
-- **Motor trigger (heel strike): keep the FSM.** It has the most reliable heel strike with the fewest false triggers. Firing about 30 ms early is harmless, and arguably helpful, given the motor's 1.5 s move.
-- **If you need the phases themselves** (assistance timed inside swing, or swing/stance percentages): use the ML model, but take heel strike from the FSM, or gate the ML heel strikes (refractory period ≥ 300 ms, only allowed after a swing).
-- **Online learning** is worth revisiting only with a better self-labeller, or a short labelled calibration walk per user. With FSM labels it actively hurts.
-
-### Caveats specific to these numbers
-
-- **Ground-truth quality was measured less than planned.** One chunk got a full independent review (155 marks, none moved more than 15 ms). Three more reviews were stopped part-way to save credits, so they show little change, and the blind double annotations were cancelled.
-- **The by-eye marks were checked against the textbook shank-gyro rule:** toe-off and mid-swing match it with median 0 ms and P90 10 ms, and heel strike with median −10 ms and P90 70 ms (the manual heel strike is the impact onset, the rule's is the dip). The clear landmarks therefore agree with the standard definition. Push-off has no rule equivalent and is the softest mark: most push-off marks are flagged unsure, and only sure marks are scored as events.
-- **The last 14 chunks were completed by Sonnet at low effort.** Most of their marks came from earlier Opus attempts, and Sonnet only spot-checked them.

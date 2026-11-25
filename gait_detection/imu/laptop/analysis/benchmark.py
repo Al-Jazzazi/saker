@@ -49,7 +49,8 @@ ZOO = {
                                          n_jobs=1, random_state=0),
     "hgb": lambda: HistGradientBoostingClassifier(max_iter=200, class_weight="balanced", random_state=0),
 }
-ZOO_STRIDE = {"rf": 3}   # rows used for training (100 Hz rows are highly correlated)
+ZOO_STRIDE = {"rf": 3}
+ZOO_X = (12, 30)        # fine-tune lengths tried for the non-neural models (refits are slow)   # rows used for training (100 Hz rows are highly correlated)
 SENSORS = {"shank": ("shank_sag", "shank_acc_dyn"), "thigh": ("thigh_sag", "thigh_mag")}
 OUT = sd.LAPTOP / "results" / "benchmark"
 
@@ -231,7 +232,7 @@ def run_fold(job):
         add(name, ph, M.events_from_phases(ph, T.tg))
         out.setdefault("zoo_debounce", {})[name] = kk
         for src in SOURCES:
-            for x in X_LIST:
+            for x in ZOO_X:
                 ma = adapt(name, m, make, x, src)
                 ph = M.debounce(ma.predict(T.X).astype(int), kk)
                 add(f"{name}_online_{src}_{x}", ph, M.events_from_phases(ph, T.tg))
@@ -285,10 +286,17 @@ if __name__ == "__main__":
     for r in RECS:
         results["fsm"][r] = run_fsm_all(prep(r))
     print(f"FSM done {time.time() - t0:.0f}s", flush=True)
-    with ProcessPoolExecutor(6) as ex:
-        for res in ex.map(run_fold, jobs()):
-            results["folds"].append(res)
+    # each finished fold is saved on its own, so a stopped run resumes where it left off
+    cache = OUT / "folds"
+    cache.mkdir(exist_ok=True)
+    todo = [j for j in jobs() if not (cache / f"{j['scheme']}_{j['test']}.npy").exists()]
+    print(f"{len(jobs()) - len(todo)} folds cached, {len(todo)} to run", flush=True)
+    import os
+    with ProcessPoolExecutor(int(os.environ.get("WORKERS", 6))) as ex:
+        for res in ex.map(run_fold, todo):
+            np.save(cache / f"{res['scheme']}_{res['test']}.npy", res, allow_pickle=True)
             print(f"{res['scheme']} {res['test']} cfg {res['cfg']} k {res['debounce']} "
                   f"{time.time() - t0:.0f}s", flush=True)
-    np.save(OUT / "raw_results.npy", results, allow_pickle=True)
-    print("saved", OUT / "raw_results.npy")
+    results["folds"] = [np.load(cache / f"{j['scheme']}_{j['test']}.npy", allow_pickle=True).item() for j in jobs()]
+    np.savez_compressed(OUT / "raw_results.npz", results=np.array([results], dtype=object))
+    print("saved", OUT / "raw_results.npz")
