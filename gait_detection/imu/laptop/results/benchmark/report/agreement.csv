@@ -1,0 +1,13 @@
+comparison,mark,chunks,n_first,n_second,matched,abs_dt_median_ms,abs_dt_p90_ms,phase_sample_agreement
+A_vs_B,HS,0,0,0,0,,,
+A_vs_B,PO,0,0,0,0,,,
+A_vs_B,TO,0,0,0,0,,,
+A_vs_B,MS,0,0,0,0,,,
+A_vs_reviewed,HS,4,136,136,136,0.0,0.0,1.0
+A_vs_reviewed,PO,4,130,130,130,0.0,0.0,1.0
+A_vs_reviewed,TO,4,137,137,137,0.0,0.0,1.0
+A_vs_reviewed,MS,4,135,135,135,0.0,0.0,1.0
+B_vs_reviewed,HS,0,0,0,0,,,
+B_vs_reviewed,PO,0,0,0,0,,,
+B_vs_reviewed,TO,0,0,0,0,,,
+B_vs_reviewed,MS,0,0,0,0,,,

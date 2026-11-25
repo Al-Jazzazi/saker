@@ -1,0 +1,193 @@
+{
+  "rec": "YR2", "start": 168.73, "end": 224.97, "annotator": "A",
+  "events": [
+    {"t": 168.88, "type": "PO", "conf": "unsure"},
+    {"t": 169.01, "type": "TO"},
+    {"t": 169.38, "type": "MS"},
+    {"t": 169.65, "type": "HS"},
+
+    {"t": 170.44, "type": "PO"},
+    {"t": 170.60, "type": "TO", "conf": "unsure"},
+    {"t": 170.95, "type": "MS"},
+    {"t": 171.22, "type": "HS"},
+
+    {"t": 172.01, "type": "PO", "conf": "unsure"},
+    {"t": 172.21, "type": "TO", "conf": "unsure"},
+    {"t": 172.50, "type": "MS"},
+    {"t": 172.78, "type": "HS"},
+
+    {"t": 173.35, "type": "PO", "conf": "unsure"},
+    {"t": 173.75, "type": "TO", "conf": "unsure"},
+    {"t": 174.05, "type": "MS"},
+    {"t": 174.33, "type": "HS", "conf": "unsure"},
+
+    {"t": 174.89, "type": "PO", "conf": "unsure"},
+    {"t": 175.32, "type": "TO", "conf": "unsure"},
+    {"t": 175.88, "type": "HS", "conf": "unsure"},
+
+    {"t": 176.75, "type": "PO", "conf": "unsure"},
+    {"t": 176.84, "type": "TO", "conf": "unsure"},
+    {"t": 177.33, "type": "MS", "conf": "unsure"},
+    {"t": 177.65, "type": "HS"},
+
+    {"t": 178.50, "type": "PO", "conf": "unsure"},
+    {"t": 178.62, "type": "TO", "conf": "unsure"},
+    {"t": 178.93, "type": "MS"},
+    {"t": 179.25, "type": "HS"},
+
+    {"t": 180.00, "type": "PO", "conf": "unsure"},
+    {"t": 180.11, "type": "TO"},
+    {"t": 180.46, "type": "MS"},
+    {"t": 180.73, "type": "HS"},
+
+    {"t": 181.50, "type": "PO"},
+    {"t": 181.64, "type": "TO", "conf": "unsure"},
+    {"t": 181.97, "type": "MS"},
+    {"t": 182.30, "type": "HS"},
+
+    {"t": 182.74, "type": "PO", "conf": "unsure"},
+    {"t": 183.02, "type": "TO", "conf": "unsure"},
+    {"t": 183.38, "type": "MS"},
+    {"t": 183.61, "type": "HS"},
+
+    {"t": 184.25, "type": "PO"},
+    {"t": 184.45, "type": "TO"},
+    {"t": 184.76, "type": "MS"},
+    {"t": 185.10, "type": "HS"},
+
+    {"t": 185.66, "type": "PO"},
+    {"t": 185.80, "type": "TO"},
+    {"t": 186.11, "type": "MS"},
+    {"t": 186.52, "type": "HS"},
+
+    {"t": 187.01, "type": "PO", "conf": "unsure"},
+    {"t": 187.37, "type": "TO"},
+    {"t": 187.72, "type": "MS"},
+
+    {"t": 188.57, "type": "PO", "conf": "unsure"},
+    {"t": 188.62, "type": "TO", "conf": "unsure"},
+    {"t": 188.85, "type": "MS", "conf": "unsure"},
+    {"t": 189.18, "type": "HS"},
+
+    {"t": 189.79, "type": "PO", "conf": "unsure"},
+    {"t": 190.12, "type": "TO"},
+    {"t": 190.45, "type": "MS"},
+    {"t": 190.71, "type": "HS"},
+
+    {"t": 191.25, "type": "PO"},
+    {"t": 191.56, "type": "TO"},
+    {"t": 191.90, "type": "MS"},
+    {"t": 192.21, "type": "HS"},
+
+    {"t": 192.93, "type": "PO", "conf": "unsure"},
+    {"t": 193.43, "type": "MS"},
+    {"t": 193.70, "type": "HS"},
+
+    {"t": 194.27, "type": "PO", "conf": "unsure"},
+    {"t": 194.68, "type": "TO", "conf": "unsure"},
+    {"t": 194.97, "type": "MS"},
+    {"t": 195.30, "type": "HS"},
+
+    {"t": 196.00, "type": "PO"},
+    {"t": 196.28, "type": "TO", "conf": "unsure"},
+    {"t": 196.58, "type": "MS"},
+    {"t": 196.86, "type": "HS"},
+
+    {"t": 197.41, "type": "PO"},
+    {"t": 197.75, "type": "TO"},
+    {"t": 198.09, "type": "MS"},
+    {"t": 198.41, "type": "HS"},
+
+    {"t": 199.10, "type": "PO", "conf": "unsure"},
+    {"t": 199.40, "type": "TO", "conf": "unsure"},
+    {"t": 199.67, "type": "MS", "conf": "unsure"},
+    {"t": 199.95, "type": "HS"},
+
+    {"t": 200.56, "type": "PO", "conf": "unsure"},
+    {"t": 200.98, "type": "TO"},
+    {"t": 201.27, "type": "MS", "conf": "unsure"},
+    {"t": 201.56, "type": "HS", "conf": "unsure"},
+
+    {"t": 202.30, "type": "PO", "conf": "unsure"},
+    {"t": 202.37, "type": "TO", "conf": "unsure"},
+    {"t": 202.86, "type": "MS", "conf": "unsure"},
+    {"t": 203.12, "type": "HS"},
+
+    {"t": 203.59, "type": "PO", "conf": "unsure"},
+    {"t": 203.94, "type": "TO"},
+    {"t": 204.57, "type": "HS"},
+
+    {"t": 205.13, "type": "PO"},
+    {"t": 205.46, "type": "TO"},
+    {"t": 205.82, "type": "MS"},
+    {"t": 206.07, "type": "HS"},
+
+    {"t": 206.56, "type": "PO"},
+    {"t": 206.99, "type": "TO", "conf": "unsure"},
+    {"t": 207.27, "type": "MS"},
+    {"t": 207.54, "type": "HS", "conf": "unsure"},
+
+    {"t": 208.20, "type": "PO", "conf": "unsure"},
+    {"t": 208.38, "type": "TO", "conf": "unsure"},
+    {"t": 208.70, "type": "MS"},
+    {"t": 208.97, "type": "HS"},
+
+    {"t": 209.45, "type": "PO"},
+    {"t": 209.82, "type": "TO", "conf": "unsure"},
+    {"t": 210.16, "type": "MS"},
+    {"t": 210.45, "type": "HS"},
+
+    {"t": 211.07, "type": "PO", "conf": "unsure"},
+    {"t": 211.25, "type": "TO", "conf": "unsure"},
+    {"t": 211.57, "type": "MS"},
+    {"t": 211.84, "type": "HS"},
+
+    {"t": 212.38, "type": "PO", "conf": "unsure"},
+    {"t": 212.70, "type": "TO", "conf": "unsure"},
+    {"t": 213.06, "type": "MS"},
+    {"t": 213.33, "type": "HS"},
+
+    {"t": 213.98, "type": "PO", "conf": "unsure"},
+    {"t": 214.06, "type": "TO", "conf": "unsure"},
+    {"t": 214.30, "type": "MS", "conf": "unsure"},
+    {"t": 214.71, "type": "HS"},
+
+    {"t": 215.53, "type": "PO", "conf": "unsure"},
+    {"t": 215.75, "type": "TO", "conf": "unsure"},
+    {"t": 216.04, "type": "MS"},
+    {"t": 216.34, "type": "HS", "conf": "unsure"},
+
+    {"t": 216.78, "type": "PO", "conf": "unsure"},
+    {"t": 217.15, "type": "TO", "conf": "unsure"},
+    {"t": 217.48, "type": "MS"},
+    {"t": 217.74, "type": "HS"},
+
+    {"t": 218.26, "type": "PO"},
+    {"t": 218.57, "type": "TO"},
+    {"t": 218.90, "type": "MS"},
+    {"t": 219.21, "type": "HS"},
+
+    {"t": 219.74, "type": "PO"},
+    {"t": 220.07, "type": "TO"},
+    {"t": 220.40, "type": "MS"},
+    {"t": 220.71, "type": "HS", "conf": "unsure"},
+
+    {"t": 221.16, "type": "PO"},
+    {"t": 221.48, "type": "TO"},
+    {"t": 221.82, "type": "MS"},
+    {"t": 222.07, "type": "HS"},
+
+    {"t": 222.53, "type": "PO", "conf": "unsure"},
+    {"t": 222.97, "type": "TO", "conf": "unsure"},
+    {"t": 223.27, "type": "MS"},
+    {"t": 223.53, "type": "HS"},
+
+    {"t": 224.06, "type": "PO", "conf": "unsure"},
+    {"t": 224.46, "type": "TO", "conf": "unsure"},
+    {"t": 224.76, "type": "MS"}
+  ],
+  "still": [],
+  "unclear": [[175.53, 175.66], [187.88, 188.06], [193.03, 193.16], [204.18, 204.31]],
+  "irregular": [[175.85, 177.68], [188.05, 189.22], [201.45, 203.15], [213.45, 214.75]],
+  "notes": "Slow walking with many Wi-Fi gaps and four turnarounds (175.9-177.7, 188.05-189.2, 201.45-203.15, 213.45-214.75: pivot with shank near 0 then a slow small swing). Hidden in gaps (unclear): MS 175.53-175.66, HS 187.88-188.06, TO 193.03-193.16, MS 204.18-204.31. Many TO dips have two lobes (broad min then a sharp second min just before the rise); TO = most negative sample, near-ties take the later lobe and are marked unsure. PO = end of last plateau/hump (bumps >=3 deg/s count); soft. Resumed and verified on all overlays plus 1 s zooms: HS moved 201.52->201.56 (smooth shank dip at 201.52 precedes the real impact spike that starts at 201.56, like the slipper case); PO 192.74->192.93 and 198.99->199.10 (a gap hides the first drop, and after the gap there is a near-flat stretch that ends at the bend into the fall); PO 208.19->208.20; TO 209.82 marked unsure (second lobe -83 at 209.87 vs -87). HS 207.54 and 216.34 sit at gap edges with the spike inside the gap."
+}

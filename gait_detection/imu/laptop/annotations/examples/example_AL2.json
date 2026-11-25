@@ -1,0 +1,6 @@
+{"rec": "AL2", "start": 398.7, "end": 400.4, "annotator": "example",
+ "events": [
+  {"t": 398.95, "type": "MS"}, {"t": 399.20, "type": "HS"},
+  {"t": 399.77, "type": "PO"}, {"t": 400.05, "type": "TO"}],
+ "still": [], "unclear": [], "irregular": [],
+ "notes": "Slippers: shank dips to -70 at 399.13 BEFORE contact; the impact spike starts at 399.20, so HS = 399.20. Bounces 399.2-399.5 are after contact, still stance."}

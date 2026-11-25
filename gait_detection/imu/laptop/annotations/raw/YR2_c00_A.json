@@ -1,0 +1,164 @@
+{"rec": "YR2", "start": 0, "end": 56.24, "annotator": "A",
+ "events": [
+  {"t": 11.51, "type": "MS", "conf": "unsure"},
+  {"t": 11.70, "type": "HS"},
+
+  {"t": 12.27, "type": "PO", "conf": "unsure"},
+  {"t": 12.69, "type": "TO"},
+  {"t": 12.99, "type": "MS"},
+  {"t": 13.25, "type": "HS"},
+
+  {"t": 13.77, "type": "PO"},
+  {"t": 14.11, "type": "TO"},
+  {"t": 14.45, "type": "MS"},
+  {"t": 14.67, "type": "HS"},
+
+  {"t": 15.16, "type": "PO", "conf": "unsure"},
+  {"t": 15.48, "type": "TO"},
+  {"t": 16.04, "type": "HS"},
+
+  {"t": 16.51, "type": "PO", "conf": "unsure"},
+  {"t": 16.84, "type": "TO"},
+  {"t": 17.15, "type": "MS"},
+  {"t": 17.40, "type": "HS"},
+
+  {"t": 17.82, "type": "PO", "conf": "unsure"},
+  {"t": 18.15, "type": "TO"},
+  {"t": 18.44, "type": "MS"},
+  {"t": 18.70, "type": "HS"},
+
+  {"t": 19.19, "type": "PO"},
+  {"t": 19.51, "type": "TO"},
+  {"t": 19.83, "type": "MS"},
+  {"t": 20.04, "type": "HS"},
+
+  {"t": 20.49, "type": "PO", "conf": "unsure"},
+  {"t": 20.82, "type": "TO"},
+  {"t": 21.13, "type": "MS"},
+  {"t": 21.40, "type": "HS"},
+
+  {"t": 21.93, "type": "PO"},
+  {"t": 22.17, "type": "TO"},
+  {"t": 22.52, "type": "MS"},
+  {"t": 22.77, "type": "HS"},
+
+  {"t": 23.49, "type": "TO", "conf": "unsure"},
+  {"t": 23.86, "type": "MS", "conf": "unsure"},
+
+  {"t": 24.59, "type": "PO"},
+  {"t": 24.96, "type": "TO"},
+  {"t": 25.28, "type": "MS"},
+  {"t": 25.51, "type": "HS"},
+
+  {"t": 26.11, "type": "PO", "conf": "unsure"},
+  {"t": 26.32, "type": "TO"},
+  {"t": 26.65, "type": "MS", "conf": "unsure"},
+  {"t": 26.91, "type": "HS"},
+
+  {"t": 27.49, "type": "PO", "conf": "unsure"},
+  {"t": 27.67, "type": "TO"},
+  {"t": 28.00, "type": "MS"},
+  {"t": 28.26, "type": "HS"},
+
+  {"t": 28.83, "type": "PO", "conf": "unsure"},
+  {"t": 29.01, "type": "TO"},
+  {"t": 29.32, "type": "MS"},
+  {"t": 29.62, "type": "HS"},
+
+  {"t": 30.10, "type": "PO", "conf": "unsure"},
+  {"t": 30.45, "type": "TO"},
+  {"t": 30.77, "type": "MS"},
+  {"t": 31.05, "type": "HS"},
+
+  {"t": 31.53, "type": "PO"},
+  {"t": 31.79, "type": "TO"},
+  {"t": 32.14, "type": "MS"},
+  {"t": 32.41, "type": "HS"},
+
+  {"t": 32.91, "type": "PO", "conf": "unsure"},
+  {"t": 33.22, "type": "TO", "conf": "unsure"},
+  {"t": 33.56, "type": "MS"},
+  {"t": 33.83, "type": "HS"},
+
+  {"t": 34.63, "type": "TO", "conf": "unsure"},
+  {"t": 35.02, "type": "MS", "conf": "unsure"},
+  {"t": 35.22, "type": "HS", "conf": "unsure"},
+
+  {"t": 35.65, "type": "PO", "conf": "unsure"},
+  {"t": 36.07, "type": "TO"},
+  {"t": 36.41, "type": "MS"},
+  {"t": 36.64, "type": "HS"},
+
+  {"t": 37.05, "type": "PO", "conf": "unsure"},
+  {"t": 37.41, "type": "TO"},
+  {"t": 37.75, "type": "MS"},
+  {"t": 38.00, "type": "HS"},
+
+  {"t": 38.48, "type": "PO", "conf": "unsure"},
+  {"t": 38.74, "type": "TO"},
+  {"t": 39.03, "type": "MS", "conf": "unsure"},
+  {"t": 39.34, "type": "HS"},
+
+  {"t": 39.80, "type": "PO"},
+  {"t": 40.05, "type": "TO"},
+  {"t": 40.40, "type": "MS"},
+  {"t": 40.63, "type": "HS"},
+
+  {"t": 41.08, "type": "PO"},
+  {"t": 41.35, "type": "TO", "conf": "unsure"},
+  {"t": 41.68, "type": "MS"},
+  {"t": 41.93, "type": "HS"},
+
+  {"t": 42.37, "type": "PO"},
+  {"t": 42.63, "type": "TO", "conf": "unsure"},
+  {"t": 42.99, "type": "MS"},
+  {"t": 43.22, "type": "HS"},
+
+  {"t": 43.70, "type": "PO", "conf": "unsure"},
+  {"t": 43.93, "type": "TO"},
+  {"t": 44.54, "type": "HS", "conf": "unsure"},
+
+  {"t": 45.14, "type": "PO", "conf": "unsure"},
+  {"t": 45.88, "type": "HS", "conf": "unsure"},
+
+  {"t": 46.44, "type": "TO", "conf": "unsure"},
+  {"t": 46.68, "type": "MS", "conf": "unsure"},
+  {"t": 47.07, "type": "HS", "conf": "unsure"},
+
+  {"t": 47.68, "type": "PO", "conf": "unsure"},
+  {"t": 48.00, "type": "TO", "conf": "unsure"},
+  {"t": 48.28, "type": "MS"},
+  {"t": 48.53, "type": "HS"},
+
+  {"t": 48.95, "type": "PO", "conf": "unsure"},
+  {"t": 49.20, "type": "TO"},
+  {"t": 49.53, "type": "MS"},
+  {"t": 49.77, "type": "HS"},
+
+  {"t": 50.19, "type": "PO", "conf": "unsure"},
+  {"t": 50.46, "type": "TO", "conf": "unsure"},
+  {"t": 50.80, "type": "MS"},
+  {"t": 51.04, "type": "HS"},
+
+  {"t": 51.43, "type": "PO"},
+  {"t": 51.73, "type": "TO"},
+  {"t": 52.05, "type": "MS", "conf": "unsure"},
+
+  {"t": 52.74, "type": "PO", "conf": "unsure"},
+  {"t": 52.98, "type": "TO"},
+  {"t": 53.33, "type": "MS", "conf": "unsure"},
+  {"t": 53.58, "type": "HS"},
+
+  {"t": 54.00, "type": "PO", "conf": "unsure"},
+  {"t": 54.32, "type": "TO", "conf": "unsure"},
+  {"t": 54.66, "type": "MS"},
+  {"t": 54.91, "type": "HS"},
+
+  {"t": 55.37, "type": "PO", "conf": "unsure"},
+  {"t": 55.98, "type": "MS"}
+ ],
+ "still": [[0.0, 11.05]],
+ "unclear": [[11.05, 11.45], [15.68, 15.81], [23.20, 23.46], [24.06, 24.26], [34.28, 34.61], [44.23, 44.41], [45.23, 45.76], [45.95, 46.42], [52.23, 52.36], [55.58, 55.75]],
+ "irregular": [[11.05, 11.80], [23.40, 24.45], [34.30, 35.40], [45.90, 47.20]],
+ "notes": "Stand 0-11.05 still. 11.05-11.80 gait initiation: small first swing (+37 deg/s) lands at 11.70; lift-off hidden by gaps. Turnarounds at 23.4-24.45, 34.3-35.4, 45.9-47.2: slow turn steps (+45..+58 deg/s) marked unsure; turn-1 HS hidden in gap 24.09-24.20. Gaps hide MS 15.75, MS ~44.3, TO+MS 45.24-45.75, HS ~52.3, TO ~55.62. Several TO dips are double (main dip + shallower second dip before the rise); TO = deepest point, unsure when the two are within ~10%. HS at 56.25 is past chunk end."
+}
