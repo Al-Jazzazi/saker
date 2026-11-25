@@ -39,7 +39,7 @@ For whoever picks this up (Codex or a person). Everything below runs locally; no
 | `fsm_replay.cpp`, `walk_cal.cpp` | the board's own GaitFsm / analyseWalk compiled for the laptop |
 | `methods.py` | FSM runner, causal features (past ≤ 1 s), numpy MLP with fine-tuning, debounce, phase→event |
 | `scoring.py` | phase confusion/F1; events matched one-to-one within ±150 ms (also ±300 ms); false alarms; timing |
-| `benchmark.py` | runs all methods/folds → `results/benchmark/raw_results.npy` |
+| `benchmark.py` | runs all methods/folds → `results/benchmark/raw_results.npz` |
 | `analyze.py` | pooled / per-task / per-person / per-recording scores, block-bootstrap CIs, annotator agreement |
 | `export_report.py` | CSVs for the report page |
 | `write_report.py` | `REPORT.md` + `figures/` |

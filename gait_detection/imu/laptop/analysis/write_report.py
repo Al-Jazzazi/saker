@@ -173,6 +173,36 @@ def size_section():
     return "\n".join(out) + "\n"
 
 
+def interpret_section():
+    import csv
+    f1, f2, f3 = OUT / "interpret_importance.csv", OUT / "interpret_top_features.csv", OUT / "interpret_errors.csv"
+    if not f1.exists():
+        return ""
+    imp = list(csv.DictReader(open(f1)))
+    out = ["## 3e. Interpretability: what the models rely on", "",
+           "Permutation importance, leave one recording out: shuffle one group of inputs in the test recording and see how "
+           "much phase macro F1 drops (mean over the 7 recordings, min–max in brackets).", "",
+           "| input group | features | random forest | gradient boosting | neural net |", "|---|---|---|---|---|"]
+    for g in dict.fromkeys(r["group"] for r in imp):
+        cells = []
+        for m in ("Random forest", "Gradient boosting", "Neural net (MLP)"):
+            r = next(x for x in imp if x["group"] == g and x["model"] == m)
+            cells.append(f"{float(r['macro_f1_drop']):.3f} [{float(r['macro_f1_drop_min']):.3f}–{float(r['macro_f1_drop_max']):.3f}]")
+        n = next(x for x in imp if x["group"] == g)["n_features"]
+        out.append(f"| {g} | {n} | " + " | ".join(cells) + " |")
+    if f2.exists():
+        out += ["", "Top features the random forest splits on (impurity importance, mean of 7 folds):", "",
+                "| rank | feature | kind | importance |", "|---|---|---|---|"]
+        out += [f"| {r['rank']} | `{r['feature']}` | {r['kind']} | {r['importance']} |" for r in csv.DictReader(open(f2))]
+    if f3.exists():
+        out += ["", "Where the errors are: share of wrongly labelled samples that lie within 100 ms of a true phase change "
+                "(timing at the boundaries) rather than mid-phase (a wrong phase altogether).", "",
+                "| method | wrong samples | within 100 ms of a phase change |", "|---|---|---|"]
+        out += [f"| {r['method']} | {r['wrong_samples']} | {100 * float(r['share_within_100ms_of_phase_change']):.1f}% |"
+                for r in csv.DictReader(open(f3))]
+    return "\n".join(out) + "\n"
+
+
 def table(s, mains):
     rows = ["| method | macro F1 [95% CI] | 3-phase F1 | HS found | HS false / 100 strides | HS timing (median) | HS \\|err\\| P90 | HS found ±300 ms | TO found | MS found | false HS while standing |",
             "|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -299,6 +329,7 @@ Test set (identical for every method): in each recording everything after **walk
 How each model is adapted: neural nets are fine-tuned by gradient steps; gradient boosting gets 50 more boosting rounds fitted to the new walker; random forest gets 50 more trees grown on the new walker; linear models are refit with the new walker's seconds weighted as much as all training data.
 
 {size_section()}
+{interpret_section()}
 ## 4. Per recording (macro F1)
 
 {rec_table(s, mains)}

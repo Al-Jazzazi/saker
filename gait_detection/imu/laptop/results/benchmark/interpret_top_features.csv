@@ -1,0 +1,16 @@
+rank,feature,kind,importance
+1,shank_sag_mean20,200 ms window,0.0648
+2,shank_sag_max20,200 ms window,0.0632
+3,shank_sag_since_max100,0.5-1 s window,0.0569
+4,shank_sag_d1,recent change,0.0526
+5,shank_sag_d2,recent change,0.051
+6,shank_sag_d8,recent change,0.0478
+7,shank_sag_min20,200 ms window,0.0472
+8,shank_sag_d5,recent change,0.047
+9,shank_sag_max50,0.5-1 s window,0.0439
+10,shank_sag_d3,recent change,0.0392
+11,shank_sag,value now,0.0313
+12,shank_sag_since_min20,200 ms window,0.0306
+13,shank_sag_d12,recent change,0.0305
+14,shank_sag_since_max50,0.5-1 s window,0.0248
+15,shank_sag_since_max20,200 ms window,0.0242
